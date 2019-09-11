@@ -1,6 +1,10 @@
 Jared Hobbie, Amandeep Singh, Jyostna Ramaswamy
 
-1. Python
-2. We will communicate over text through groupme, and using discord when we cannot meet in person.
-3. We will have three weekly meetings, Tuesday and Thursday as well as Friday.
-4. 
+Language of Choice: Python
+Communication Method: We will communicate over text through groupme, and using discord when we cannot meet in person.
+Meeting times: We will have three weekly meetings, Tuesday and Thursday as well as Friday.
+Repo URL: https://github.com/JHobbie/TeamJAJ-CS555
+Roles:
+	Developers: Jared, Jo, Amandeep
+	Testers: Jared, Jo
+	Team Report Update: Amandeep
