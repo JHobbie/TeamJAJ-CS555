@@ -1,0 +1,156 @@
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 NOTE Jyotsna Ramaswamy
+<--0|NOTE|Y|Jyotsna Ramaswamy
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1979
+<--2|DATE|Y|4 OCT 1979
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+{'NAME': 'Hersh E. /Bar/', 'FAMS': 'F01', 'BIRT': '4 OCT 1979', 'SEX': 'M', 'type': 'INDI', 'ID': 'I01'}-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1980
+<--2|DATE|Y|10 AUG 1980
+-->1 DEAT Y
+<--1|DEAT|Y|Y
+-->2 DATE 7 OCT 2019
+<--2|DATE|Y|7 OCT 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+{'NAME': 'Ginger /Bred/', 'FAMS': 'F01', 'BIRT': '10 AUG 1980', 'SEX': 'F', 'type': 'INDI', 'ID': 'I02', 'DEAT': '7 OCT 2019'}-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Bar/
+<--1|NAME|Y|Candy /Bar/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 16 JUN 1992
+<--2|DATE|Y|16 JUN 1992
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+{'NAME': 'Candy /Bar/', 'FAMS': 'F02', 'BIRT': '16 JUN 1992', 'SEX': 'F', 'FAMC': 'F01', 'type': 'INDI', 'ID': 'I03'}-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME George /Kane/
+<--1|NAME|Y|George /Kane/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 25 AUG 1995
+<--2|DATE|Y|25 AUG 1995
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+{'NAME': 'George /Kane/', 'FAMS': 'F02', 'BIRT': '25 AUG 1995', 'SEX': 'M', 'type': 'INDI', 'ID': 'I04'}-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 DEAT Y
+<--1|DEAT|Y|Y
+-->2 DATE 7 SEP 2015
+<--2|DATE|Y|7 SEP 2015
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+{'NAME': 'Reese /Bar/', 'BIRT': '20 MAY 1994', 'SEX': 'M', 'FAMC': 'F01', 'type': 'INDI', 'ID': 'I05', 'DEAT': '7 SEP 2015'}-->0 I06 INDI
+<--0|INDI|Y|I06
+-->1 NAME Mars /Bar/
+<--1|NAME|Y|Mars /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+{'NAME': 'Mars /Bar/', 'BIRT': '20 MAY 1994', 'SEX': 'M', 'FAMC': 'F01', 'type': 'INDI', 'ID': 'I06'}-->0 I07 INDI
+<--0|INDI|Y|I07
+-->1 NAME Lemon /Bar/
+<--1|NAME|Y|Lemon /Bar/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 11 JUN 1995
+<--2|DATE|Y|11 JUN 1995
+-->1 FAMS F03
+<--1|FAMS|Y|F03
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+{'NAME': 'Lemon /Bar/', 'FAMS': 'F03', 'BIRT': '11 JUN 1995', 'SEX': 'F', 'FAMC': 'F01', 'type': 'INDI', 'ID': 'I07'}-->0 I08 INDI
+<--0|INDI|Y|I08
+-->1 NAME Timothy /Drop/
+<--1|NAME|Y|Timothy /Drop/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 5 SEP 1992
+<--2|DATE|Y|5 SEP 1992
+-->1 FAMS F03
+<--1|FAMS|Y|F03
+{'NAME': 'Timothy /Drop/', 'FAMS': 'F03', 'BIRT': '5 SEP 1992', 'SEX': 'M', 'type': 'INDI', 'ID': 'I08'}-->0 I09 INDI
+<--0|INDI|Y|I09
+-->1 NAME Marshmallow /Kane/
+<--1|NAME|Y|Marshmallow /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 9 AUG 2016
+<--2|DATE|Y|9 AUG 2016
+-->1 FAMC F02
+<--1|FAMC|Y|F02
+{'NAME': 'Marshmallow /Kane/', 'BIRT': '9 AUG 2016', 'SEX': 'F', 'FAMC': 'F02', 'type': 'INDI', 'ID': 'I09'}-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->1 CHIL I06
+<--1|CHIL|Y|I06
+-->1 CHIL I07
+<--1|CHIL|Y|I07
+{'HUSB': 'I01', 'type': 'FAM', 'ID': 'F01', 'CHIL': 'I07', 'WIFE': 'I02'}-->0 F02 FAM
+<--0|FAM|Y|F02
+-->1 HUSB I04
+<--1|HUSB|Y|I04
+-->1 WIFE I03
+<--1|WIFE|Y|I03
+-->1 CHIL I09
+<--1|CHIL|Y|I09
+{'HUSB': 'I04', 'type': 'FAM', 'ID': 'F02', 'CHIL': 'I09', 'WIFE': 'I03'}-->0 F03 FAM
+<--0|FAM|Y|F03
+-->1 HUSB I08
+<--1|HUSB|Y|I08
+-->1 WIFE I07
+<--1|WIFE|Y|I07
+-->0 TRLR
+<--0|TRLR|Y|
