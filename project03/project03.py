@@ -45,9 +45,12 @@ if (len(fileName) > 0):
            if tag in dateTags:
                lastDate = tag
            if tag == "DATE":
-                currentObject[lastDate] = arg
-           else: 
-               currentObject[tag] = arg
+                currentObject[lastDate] = [arg]
+           else:
+               if tag in currentObject:
+                   currentObject[tag] = currentObject[tag]+[arg]
+               else:
+                    currentObject[tag] = [arg]
         elif lev == 0 and tag in tags0:
             constructedLine = "<--"+str(lev)+"|" + tag+"|"+"Y"+"|"+arg.strip() + "\n"
             if currentObject != {}:
@@ -57,7 +60,6 @@ if (len(fileName) > 0):
             constructedLine = "<--"+str(lev)+"|"+ str(lineArr[-1]).strip()+"|"+"Y"+"|"+ str(lineArr[1]) + "\n"
             if currentObject != {}:
                 dictDict[currentObject["type"]][currentObject["ID"]] = currentObject
-                writtenFile.write(str(currentObject))
             currentObject = {}
             currentObject["type"]=str(lineArr[-1]).strip()
             currentObject["ID"] = lineArr[1]
@@ -70,19 +72,19 @@ if (len(fileName) > 0):
     writtenFile.close()
     indiTable = PrettyTable(['ID', 'Name', 'Gender', 'Birth', 'Death', 'Alive', 'Child', 'Spouse'])
     for key in individualDict:
-        addlist = [key, individualDict[key]['NAME'], individualDict[key]['SEX'], individualDict[key]['BIRT']]
+        addlist = [key] + individualDict[key]['NAME'] + individualDict[key]['SEX'] + individualDict[key]['BIRT']
         if 'DEAT' in individualDict[key].keys():
-            addlist.append(individualDict[key]['DEAT'])
+            addlist += individualDict[key]['DEAT']
             addlist.append('N')
         else:
             addlist.append('N/A')
             addlist.append('Y')
         if 'FAMC' in individualDict[key].keys():
-            addlist.append(individualDict[key]['FAMC'])
+            addlist +=individualDict[key]['FAMC']
         else:
             addlist.append('N/A')
         if 'FAMS' in individualDict[key].keys():
-            addlist.append(individualDict[key]['FAMS'])
+            addlist += individualDict[key]['FAMS']
         else:
             addlist.append('N/A')
         indiTable.add_row(addlist)
@@ -92,17 +94,18 @@ if (len(fileName) > 0):
     writefi.write('Families:\n')
     famTable = PrettyTable(['ID', 'Married', 'Divorced', 'Husband ID', 'Husband Name', 'Wife ID', 'Wife Name', 'Children'])
     for key in familyDict:
-        addlist = [key, familyDict[key]['MARR']]
+        addlist = [key] +  familyDict[key]['MARR']
         if 'DIV' in familyDict.keys():
-            addlist.append(familyDict[key]['DIV'])
+            addlist += familyDict[key]['DIV']
         else:
             addlist.append('N/A')
-        hid = familyDict[key]['HUSB']
-        wid = familyDict[key]['WIFE']
-        addlist += [hid, individualDict[hid]['NAME'], wid, individualDict[wid]['NAME']]
+        hid = familyDict[key]['HUSB'][0]
+        wid = familyDict[key]['WIFE'][0]
+        addlist += [hid] + individualDict[hid]['NAME'] + [wid] +  individualDict[wid]['NAME']
         if 'CHIL' in familyDict[key].keys():
-            addlist.append(familyDict[key]['CHIL'])
+            addlist += [familyDict[key]['CHIL']]
         else:
             addlist.append('N/A')
         famTable.add_row(addlist)
     writefi.write(famTable.get_string())
+    writefi.close()
