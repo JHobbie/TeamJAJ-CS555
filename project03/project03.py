@@ -4,6 +4,7 @@ CS 555 Project03
 I pledge my honor that I have abided by the Stevens Honor System.
 '''
 import sys
+from prettytable import PrettyTable
 
 
 tags0 = ["HEAD", "TRLR", "NOTE"]
@@ -62,11 +63,46 @@ if (len(fileName) > 0):
             currentObject["ID"] = lineArr[1]
         else:
             constructedLine = "<--"+str(lev)+ "|"+tag+"|"+"N"+"|"+arg.strip() + "\n"
-        print (oldLine, constructedLine)
+        # print (oldLine, constructedLine)
         writtenFile.write(oldLine)
         writtenFile.write(constructedLine)
     loadedFile.close()
     writtenFile.close()
-    
-
-
+    indiTable = PrettyTable(['ID', 'Name', 'Gender', 'Birth', 'Death', 'Alive', 'Child', 'Spouse'])
+    for key in individualDict:
+        addlist = [key, individualDict[key]['NAME'], individualDict[key]['SEX'], individualDict[key]['BIRT']]
+        if 'DEAT' in individualDict[key].keys():
+            addlist.append(individualDict[key]['DEAT'])
+            addlist.append('N')
+        else:
+            addlist.append('N/A')
+            addlist.append('Y')
+        if 'FAMC' in individualDict[key].keys():
+            addlist.append(individualDict[key]['FAMC'])
+        else:
+            addlist.append('N/A')
+        if 'FAMS' in individualDict[key].keys():
+            addlist.append(individualDict[key]['FAMS'])
+        else:
+            addlist.append('N/A')
+        indiTable.add_row(addlist)
+    writefi = open('printoutput.txt', 'a')
+    writefi.write('Individuals:\n')
+    writefi.write(indiTable.get_string() + '\n')
+    writefi.write('Families:\n')
+    famTable = PrettyTable(['ID', 'Married', 'Divorced', 'Husband ID', 'Husband Name', 'Wife ID', 'Wife Name', 'Children'])
+    for key in familyDict:
+        addlist = [key, familyDict[key]['MARR']]
+        if 'DIV' in familyDict.keys():
+            addlist.append(familyDict[key]['DIV'])
+        else:
+            addlist.append('N/A')
+        hid = familyDict[key]['HUSB']
+        wid = familyDict[key]['WIFE']
+        addlist += [hid, individualDict[hid]['NAME'], wid, individualDict[wid]['NAME']]
+        if 'CHIL' in familyDict[key].keys():
+            addlist.append(familyDict[key]['CHIL'])
+        else:
+            addlist.append('N/A')
+        famTable.add_row(addlist)
+    writefi.write(famTable.get_string())
