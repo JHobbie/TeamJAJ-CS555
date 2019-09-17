@@ -1,0 +1,15 @@
+Individuals:
++-----+--------------------+--------+-------------+------------+-------+-------+--------+
+|  ID |        Name        | Gender |    Birth    |   Death    | Alive | Child | Spouse |
++-----+--------------------+--------+-------------+------------+-------+-------+--------+
+| I02 |   Ginger /Bred/    |   F    | 10 AUG 1980 | 7 OCT 2019 |   N   |  N/A  |  F01   |
+| I03 |    Candy /Bar/     |   F    | 16 JUN 1992 |    N/A     |   Y   |  F01  |  F02   |
+| I01 |   Hersh E. /Bar/   |   M    |  4 OCT 1979 |    N/A     |   Y   |  N/A  |  F01   |
+| I06 |     Mars /Bar/     |   M    | 20 MAY 1994 |    N/A     |   Y   |  F01  |  N/A   |
+| I07 |    Lemon /Bar/     |   F    | 11 JUN 1995 |    N/A     |   Y   |  F01  |  F03   |
+| I04 |   George /Kane/    |   M    | 25 AUG 1995 |    N/A     |   Y   |  N/A  |  F02   |
+| I05 |    Reese /Bar/     |   M    | 20 MAY 1994 | 7 SEP 2015 |   N   |  F01  |  N/A   |
+| I08 |   Timothy /Drop/   |   M    |  5 SEP 1992 |    N/A     |   Y   |  N/A  |  F03   |
+| I09 | Marshmallow /Kane/ |   F    |  9 AUG 2016 |    N/A     |   Y   |  F02  |  N/A   |
++-----+--------------------+--------+-------------+------------+-------+-------+--------+
+Families:
