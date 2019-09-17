@@ -4,8 +4,9 @@ CS 555 Project
 I pledge my honor that I have abided by the Stevens Honor System.
 '''
 import sys
-import marriageAge
 import utils
+import marriageAge
+import includeAge
 from prettytable import PrettyTable
 tags0 = ["HEAD", "TRLR", "NOTE"]
 tags1 = ["NAME", "SEX", "BIRT", "DEAT", "FAMC",
@@ -79,8 +80,9 @@ if __name__ == "__main__":
             writtenFile.write(constructedLine)
         loadedFile.close()
         writtenFile.close()
+        includeAge.addAgeToAll(individualDict)
         indiTable = PrettyTable(
-            ['ID', 'Name', 'Gender', 'Birth', 'Death', 'Alive', 'Child', 'Spouse'])
+            ['ID', 'Name', 'Gender', 'Birth', 'Death', 'Alive', 'Child', 'Spouse', 'Age'])
         for key in individualDict:
             addlist = [key] + individualDict[key]['NAME'] + \
                 individualDict[key]['SEX'] + individualDict[key]['BIRT']
@@ -98,6 +100,7 @@ if __name__ == "__main__":
                 addlist += individualDict[key]['FAMS']
             else:
                 addlist.append('N/A')
+            addlist.append(individualDict[key]['AGE'])
             indiTable.add_row(addlist)
         writefi = open('printoutput.txt', 'a')
         writefi.write('Individuals:\n')
