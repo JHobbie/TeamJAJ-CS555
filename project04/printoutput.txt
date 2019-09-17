@@ -2,9 +2,9 @@ Individuals:
 +-----+--------------------+--------+-------------+------------+-------+-------+--------+
 |  ID |        Name        | Gender |    Birth    |   Death    | Alive | Child | Spouse |
 +-----+--------------------+--------+-------------+------------+-------+-------+--------+
-| I02 |   Ginger /Bred/    |   F    | 10 AUG 1980 | 7 OCT 2019 |   N   |  N/A  |  F01   |
+| I02 |   Ginger /Bred/    |   F    | 10 AUG 1970 | 7 OCT 2019 |   N   |  N/A  |  F01   |
 | I03 |    Candy /Bar/     |   F    | 16 JUN 1992 |    N/A     |   Y   |  F01  |  F02   |
-| I01 |   Hersh E. /Bar/   |   M    |  4 OCT 1979 |    N/A     |   Y   |  N/A  |  F01   |
+| I01 |   Hersh E. /Bar/   |   M    |  4 OCT 1969 |    N/A     |   Y   |  N/A  |  F01   |
 | I06 |     Mars /Bar/     |   M    | 20 MAY 1994 |    N/A     |   Y   |  F01  |  N/A   |
 | I07 |    Lemon /Bar/     |   F    | 11 JUN 1995 |    N/A     |   Y   |  F01  |  F03   |
 | I04 |   George /Kane/    |   M    | 25 AUG 1995 |    N/A     |   Y   |  N/A  |  F02   |
@@ -13,3 +13,11 @@ Individuals:
 | I09 | Marshmallow /Kane/ |   F    |  9 AUG 2016 |    N/A     |   Y   |  F02  |  N/A   |
 +-----+--------------------+--------+-------------+------------+-------+-------+--------+
 Families:
++-----+-------------+----------+------------+----------------+---------+---------------+------------------------------+
+|  ID |   Married   | Divorced | Husband ID |  Husband Name  | Wife ID |   Wife Name   |           Children           |
++-----+-------------+----------+------------+----------------+---------+---------------+------------------------------+
+| F01 | 14 FEB 1990 |   N/A    |    I01     | Hersh E. /Bar/ |   I02   | Ginger /Bred/ | ['I03', 'I05', 'I06', 'I07'] |
+| F03 | 18 APR 2000 |   N/A    |    I08     | Timothy /Drop/ |   I07   |  Lemon /Bar/  |             N/A              |
+| F02 |  9 MAR 2013 |   N/A    |    I04     | George /Kane/  |   I03   |  Candy /Bar/  |           ['I09']            |
++-----+-------------+----------+------------+----------------+---------+---------------+------------------------------+
+Anomaly US10: Lemon /Bar/ (I07) and Timothy /Drop/ (I08) married too young in family F03!

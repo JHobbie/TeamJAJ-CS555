@@ -4,18 +4,20 @@ CS 555 Project
 I pledge my honor that I have abided by the Stevens Honor System.
 '''
 import sys
+import marriageAge
+import utils
 from prettytable import PrettyTable
+tags0 = ["HEAD", "TRLR", "NOTE"]
+tags1 = ["NAME", "SEX", "BIRT", "DEAT", "FAMC",
+         "FAMS", "MARR", "HUSB", "WIFE", "CHIL", "DIV"]
+tags2 = ["DATE"]
+other_tags = ["INDI", "FAM"]
+dateTags = ["BIRT", "DEAT", "MARR",  "DIV"]
+familyDict = {}
+individualDict = {}
+dictDict = {"FAM": familyDict, "INDI": individualDict}
 
 if __name__ == "__main__":
-    tags0 = ["HEAD", "TRLR", "NOTE"]
-    tags1 = ["NAME", "SEX", "BIRT", "DEAT", "FAMC",
-            "FAMS", "MARR", "HUSB", "WIFE", "CHIL", "DIV"]
-    tags2 = ["DATE"]
-    other_tags = ["INDI", "FAM"]
-    dateTags = ["BIRT", "DEAT", "MARR",  "DIV"]
-    familyDict = {}
-    individualDict = {}
-    dictDict = {"FAM": familyDict, "INDI": individualDict}
     fileName = raw_input("Please enter the desired GEDCOM file name: ")
     fileName = fileName.strip()
     outputFileName = "parsedOutput" + fileName
@@ -31,7 +33,7 @@ if __name__ == "__main__":
         loadedFile = open(fileName, 'r')
         writtenFile = open(outputFileName, 'a')
         currentObject = {}
-        for i in loadedFile:
+        for i in loadedFile: #TODO: Refactor at some point (IE Probably Never)
             oldLine = "-->" + i.strip() + "\n"
             lineArr = i.split()
             lev = int(lineArr[0])
@@ -58,7 +60,7 @@ if __name__ == "__main__":
                     tag+"|"+"Y"+"|"+arg.strip() + "\n"
                 if currentObject != {}:
                     dictDict[currentObject["type"]
-                            ][currentObject["ID"]] = currentObject
+                             ][currentObject["ID"]] = currentObject
                 currentObject = {}
             elif lineArr[-1] in other_tags and lev == 0:
                 constructedLine = "<--" + \
@@ -66,14 +68,13 @@ if __name__ == "__main__":
                     "|"+"Y"+"|" + str(lineArr[1]) + "\n"
                 if currentObject != {}:
                     dictDict[currentObject["type"]
-                            ][currentObject["ID"]] = currentObject
+                             ][currentObject["ID"]] = currentObject
                 currentObject = {}
                 currentObject["type"] = str(lineArr[-1]).strip()
                 currentObject["ID"] = lineArr[1]
             else:
                 constructedLine = "<--" + \
                     str(lev) + "|"+tag+"|"+"N"+"|"+arg.strip() + "\n"
-            # print (oldLine, constructedLine)
             writtenFile.write(oldLine)
             writtenFile.write(constructedLine)
         loadedFile.close()
@@ -119,5 +120,9 @@ if __name__ == "__main__":
             else:
                 addlist.append('N/A')
             famTable.add_row(addlist)
-        writefi.write(famTable.get_string())
+        writefi.write(famTable.get_string() + "\n")
+        us10Anomalies = marriageAge.detectPedophilia(familyDict, individualDict)
+        utils.writeErrors(us10Anomalies, writefi)
         writefi.close()
+    
+
