@@ -3,10 +3,9 @@ Team JAJ
 CS 555 Project
 I pledge my honor that I have abided by the Stevens Honor System.
 '''
-import sys
-import utils
-import marriageAge
-import includeAge
+import sys, os
+import project04.src.utils as utils
+import project04.src.marriageAge as marriageAge, project04.src.includeAge as includeAge
 from prettytable import PrettyTable
 tags0 = ["HEAD", "TRLR", "NOTE"]
 tags1 = ["NAME", "SEX", "BIRT", "DEAT", "FAMC",
@@ -20,7 +19,7 @@ dictDict = {"FAM": familyDict, "INDI": individualDict}
 def loadFile():
     fileName = raw_input("Please enter the desired GEDCOM file name: ")
     fileName = fileName.strip()
-    outputFileName = "parsedOutput" + fileName
+    outputFileName = "parsedOutput" + os.path.basename(fileName)
     if (len(fileName) > 0):
         if(len(fileName) <= 4):
             fileName += ".ged"
@@ -137,14 +136,13 @@ def constructAndWriteFamTable(writefi):
 if __name__ == "__main__":
     fileName, outputFileName = loadFile()
     writeFileAndFillDict(fileName, outputFileName)
-    
     includeAge.addAgeToAll(individualDict)
     writefi = open('printoutput.txt', 'a')
     constructAndWriteIndiTable(writefi)
     constructAndWriteFamTable(writefi)
-    
     us10Anomalies = marriageAge.detectPedophilia(familyDict, individualDict)
     utils.writeErrors(us10Anomalies, writefi)
+    print(familyDict)
     writefi.close()
 
 

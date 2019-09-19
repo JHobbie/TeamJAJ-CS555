@@ -1,4 +1,4 @@
-import utils
+import project04.src.utils as utils
 
 
 def marriageAllowed(family, husband, wife):

@@ -1,4 +1,4 @@
-import utils
+import project04.src.utils as utils
 import datetime
 
 def addAgeToIndividual(individual):
