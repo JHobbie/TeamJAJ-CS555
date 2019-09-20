@@ -39,6 +39,8 @@ def writeFileAndFillDict(inputFileName, outputFileName):
     writtenFile = open(outputFileName, 'a')
     currentObject = {}
     for i in loadedFile: 
+        if i.strip() == "":
+            continue
         oldLine = "-->" + i.strip() + "\n"
         lineArr = i.split()
         lev = int(lineArr[0])
