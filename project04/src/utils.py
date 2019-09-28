@@ -1,7 +1,5 @@
 import datetime
 
-
-
 def calcDate(dateString):
     return datetime.datetime.strptime(dateString, '%d %b %Y')
 
