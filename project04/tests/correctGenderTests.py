@@ -19,7 +19,7 @@ class correctGenderTestCase(unittest.TestCase):
         self.familyGood = {'MARR': ['14 FEB 2000'], 'WIFE': ['I03'], 'CHIL': [ 'I05', 'I06', 'I07'], 'HUSB': ['I04'], 'type': 'FAM', 'ID': 'F02'}
         
         self.familyDict = {'F01': self.familyBad, 'F02' : self.familyGood}
-        self.individualDict = {'I02' : wrongGender, 'I01' : rightGender, 'I03' : rightGender2, 'I04' : rightGender3}
+        self.individualDict = {'I02' : self.wrongGender, 'I01' : self.rightGender, 'I03' : self.rightGender2, 'I04' : self.rightGender3}
     
     def tearDown(self):
         self.wrongGender = None
@@ -28,7 +28,7 @@ class correctGenderTestCase(unittest.TestCase):
         self.rightGender3 = None
     
     def test_confirmGender(self):
-        err_msg = correctGender.confirmGender(familyDict, individualDict)
+        err_msg = correctGender.confirmGender(self.familyDict, self.individualDict)
         self.assertEqual(1, len(err_msg), "Individual I02 in Family F01 has the wrong gender.")
 
 if __name__ == '__main__':
