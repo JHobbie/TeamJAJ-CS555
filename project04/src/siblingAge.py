@@ -3,7 +3,7 @@ def siblingAge(familyDict, individualDict):
     #file.write('US28 Ordering Siblings by age:\n')
     for key in familyDict.keys():
         currentFam = familyDict[key]
-        #file.write("Family id %s \n" %  (currentFam['ID']))
+        retList +=  [("Family id %s" %  (currentFam['ID']))]
         if( "CHIL" in currentFam):
             kidList = currentFam["CHIL"]
             newKidList = []
@@ -12,11 +12,9 @@ def siblingAge(familyDict, individualDict):
                 newKidList.append(currKid)
             newKidList.sort(key = lambda child: child['AGE'])
             newKidList.reverse()
-            #for kid in newKidList:
-                #file.write("%s: %s is %d years old\n" %(kid['ID'], kid['NAME'][0], kid['AGE']))
-            retList += newKidList
+            for kid in newKidList:
+                retList+=[("%s: %s is %d years old" %(kid['ID'], kid['NAME'][0], kid['AGE']))]
         else:
-            #file.write("No children in this family\n"
-            retList += ["No children in this family"]
+            retList+= ["No children in this family"]
     return retList
 

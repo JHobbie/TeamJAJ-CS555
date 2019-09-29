@@ -1,8 +1,9 @@
 import unittest
 import project04.src.siblingAge as siblingAge
+import project04.src.includeAge as includeAge
 
 def suite():
-    suite = unittest.TestLoader().loadTestsFromTestCase(illegitimateDatesTestCase)
+    suite = unittest.TestLoader().loadTestsFromTestCase(siblingAgeTestCase)
     return suite
 class siblingAgeTestCase(unittest.TestCase):
     def setUp(self):
@@ -23,6 +24,7 @@ class siblingAgeTestCase(unittest.TestCase):
         
         self.familyDict = {'F01': self.family}
         self.individualDict = {'I02' : self.mom, 'I01' : self.dad, 'I03' : self.child1, 'I05' : self.child2, 'I06' : self.child4, 'I07' : self.child3}
+        includeAge.addAgeToAll(self.individualDict)
 
     
     def tearDown(self):
@@ -35,8 +37,9 @@ class siblingAgeTestCase(unittest.TestCase):
     
     
     def test_siblingAge(self):
+
         siblingList = siblingAge.siblingAge(self.familyDict, self.individualDict)
-        self.assertEqual(4, len(siblingList), "4 siblings in the family, ordered Reese, Mars, Candy, Lemon.")
+        self.assertEqual(5, len(siblingList), "6 elements in the list")
 
 
 if __name__ == '__main__':

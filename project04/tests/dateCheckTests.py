@@ -2,7 +2,7 @@ import unittest
 import project04.src.dateCheck as dateCheck
 
 def suite():
-    suite = unittest.TestLoader().loadTestsFromTestCase(illegitimateDatesTestCase)
+    suite = unittest.TestLoader().loadTestsFromTestCase(dateCheckTestCase)
     return suite
 class dateCheckTestCase(unittest.TestCase):
     def setUp(self):
