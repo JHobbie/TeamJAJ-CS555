@@ -8,10 +8,10 @@ def confirmGender(familyDict, individualDict):
         husb = individualDict[currFam['HUSB'][0]]
         wife = individualDict[currFam['WIFE'][0]]
         if wife['SEX'][0] != 'F':
-            err_str = "Gender of individual " + wife['ID'] + ": " + wife['NAME'][0] + " does not match role."
+            err_str = "Anomaly US21: Gender of individual " + wife['ID'] + ": " + wife['NAME'][0] + " does not match role."
             err_msg.append(err_str)
         if husb['SEX'][0] != 'M':
-            err_str = "Gender of individual " + husb['ID'] + ": " + husb['NAME'][0] + " does not match role."
+            err_str = "Anomaly US21: Gender of individual " + husb['ID'] + ": " + husb['NAME'][0] + " does not match role."
             err_msg.append(err_str)
     return err_msg
 

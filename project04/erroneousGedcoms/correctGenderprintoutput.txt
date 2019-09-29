@@ -1,0 +1,24 @@
+Individuals:
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+|  ID |      Name      | Gender |    Birth    |   Death    | Alive | Child | Spouse | Age |
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+| I02 | Ginger /Bred/  |   M    | 10 AUG 1989 | 7 OCT 2019 |   N   |  N/A  |  F01   |  30 |
+| I03 |  Candy /Bar/   |   F    | 16 JUN 1995 |    N/A     |   Y   |  F01  |  F02   |  24 |
+| I01 | Hersh E. /Bar/ |   F    |  4 OCT 1989 |    N/A     |   Y   |  N/A  |  F01   |  29 |
+| I04 | George /Kane/  |   M    | 25 AUG 1995 |    N/A     |   Y   |  N/A  |  F02   |  24 |
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+Families:
++-----+-------------+----------+------------+----------------+---------+---------------+----------+
+|  ID |   Married   | Divorced | Husband ID |  Husband Name  | Wife ID |   Wife Name   | Children |
++-----+-------------+----------+------------+----------------+---------+---------------+----------+
+| F01 | 14 FEB 1990 |   N/A    |    I01     | Hersh E. /Bar/ |   I02   | Ginger /Bred/ | ['I03']  |
+| F02 |  9 MAR 2010 |   N/A    |    I04     | George /Kane/  |   I03   |  Candy /Bar/  |   N/A    |
++-----+-------------+----------+------------+----------------+---------+---------------+----------+
+US28 Ordering Siblings by age:
+Family id F01 
+I03: Candy /Bar/ is 24 years old
+Family id F02 
+No children in this family
+Anomaly US10: Ginger /Bred/ (I02) and Hersh E. /Bar/ (I01) married too young in family F01!
+Anomaly US21: Gender of individual I02: Ginger /Bred/ does not match role.
+Anomaly US21: Gender of individual I01: Hersh E. /Bar/ does not match role.

@@ -1,7 +1,13 @@
 import datetime
 
 def calcDate(dateString):
-    return datetime.datetime.strptime(dateString, '%d %b %Y')
+    try:
+        calculatedDate = datetime.datetime.strptime(dateString, '%d %b %Y')
+        return calculatedDate
+    except:
+        print("Could not parse date, returning now")
+        # We get no credit for detecting syntactic errors, but may want to know when 
+        return datetime.datetime.now()
 
 def calculateAge(individual, inputDateObj):
     birthDate = individual["BIRT"][0]

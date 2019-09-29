@@ -25,16 +25,20 @@ def badDate(familyDict, individualDict):
         if 'MARR' in currFam.keys():
             marrDate = currFam['MARR'][0]
             if not checkValidDate(marrDate):
-                err_msg +=  ["Invalid marriage date."]
+                err_msg +=  ["Error US42: Family %s has an invalid marriage date." % (currFam['ID'])]
+        if 'DIV' in currFam.keys():
+            divDate = currFam['DIV'][0]
+            if not checkValidDate(divDate):
+                err_msg +=  ["Error US42: Family %s has an invalid Divorce date." % (currFam['ID'])]
     for key in individualDict.keys():
         currIndi = individualDict[key]
         birthDate = currIndi['BIRT'][0]
         if not checkValidDate(birthDate):
-            err_msg += ["Individual " + currIndi['ID'] + " has an invalid birth date."]
+            err_msg += ["Error US42: Individual " + currIndi['ID'] + " has an invalid birth date."]
         if 'DEAT' in currIndi.keys():
             deathDate = currIndi['DEAT'][0]
             if not checkValidDate(deathDate):
-                err_msg += ["Individual " + currIndi['ID'] + " has an invalid death date."]
+                err_msg += ["Error US42: Individual " + currIndi['ID'] + " has an invalid death date."]
     return err_msg
 
 

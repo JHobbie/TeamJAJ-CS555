@@ -6,6 +6,7 @@ I pledge my honor that I have abided by the Stevens Honor System.
 import sys, os
 import project04.src.utils as utils
 import project04.src.marriageAge as marriageAge, project04.src.includeAge as includeAge
+import project04.src.siblingAge as siblingAge, project04.src.illegitimateDates as illegitimateDates, project04.src.correctGender as correctGender
 from prettytable import PrettyTable
 tags0 = ["HEAD", "TRLR", "NOTE"]
 tags1 = ["NAME", "SEX", "BIRT", "DEAT", "FAMC",
@@ -142,8 +143,13 @@ if __name__ == "__main__":
     writefi = open('printoutput.txt', 'a')
     constructAndWriteIndiTable(writefi)
     constructAndWriteFamTable(writefi)
+    siblingAge.siblingAge(familyDict,individualDict,writefi)
     us10Anomalies = marriageAge.detectPedophilia(familyDict, individualDict)
+    us42Anomalies = illegitimateDates.badDate(familyDict, individualDict)
+    us21Anomalies = correctGender.confirmGender(familyDict, individualDict)
     utils.writeErrors(us10Anomalies, writefi)
+    utils.writeErrors(us42Anomalies, writefi)
+    utils.writeErrors(us21Anomalies, writefi)
     print(familyDict)
     writefi.close()
 
