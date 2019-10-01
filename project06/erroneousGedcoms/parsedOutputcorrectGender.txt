@@ -1,0 +1,86 @@
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Start of Wrong Gender Marriage
+<--0|NOTE|Y|Start of Wrong Gender Marriage
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1989
+<--2|DATE|Y|4 OCT 1989
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1989
+<--2|DATE|Y|10 AUG 1989
+-->1 DEAT Y
+<--1|DEAT|Y|Y
+-->2 DATE 7 OCT 2019
+<--2|DATE|Y|7 OCT 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1990
+<--2|DATE|Y|14 FEB 1990
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->0 NOTE Start of Right Gender Marriage
+<--0|NOTE|Y|Start of Right Gender Marriage
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Bar/
+<--1|NAME|Y|Candy /Bar/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 16 JUN 1995
+<--2|DATE|Y|16 JUN 1995
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME George /Kane/
+<--1|NAME|Y|George /Kane/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 25 AUG 1995
+<--2|DATE|Y|25 AUG 1995
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->0 F02 FAM
+<--0|FAM|Y|F02
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 9 MAR 2010
+<--2|DATE|Y|9 MAR 2010
+-->1 HUSB I04
+<--1|HUSB|Y|I04
+-->1 WIFE I03
+<--1|WIFE|Y|I03
+-->0 TRLR
+<--0|TRLR|Y|
