@@ -1,5 +1,5 @@
 import unittest
-import project04.src.dateCheck as dateCheck
+import project06.src.dateCheck as dateCheck
 
 def suite():
     suite = unittest.TestLoader().loadTestsFromTestCase(dateCheckTestCase)

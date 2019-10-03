@@ -1,5 +1,5 @@
 import unittest
-import project04.src.illegitimateDates as illegitimateDates
+import project06.src.illegitimateDates as illegitimateDates
 
 def suite():
     suite = unittest.TestLoader().loadTestsFromTestCase(illegitimateDatesTestCase)

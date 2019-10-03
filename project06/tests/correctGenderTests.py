@@ -1,5 +1,5 @@
 import unittest
-import project04.src.correctGender as correctGender
+import project06.src.correctGender as correctGender
 
 def suite():
     suite = unittest.TestLoader().loadTestsFromTestCase(correctGenderTestCase)

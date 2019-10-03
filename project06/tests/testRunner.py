@@ -1,8 +1,9 @@
 import unittest
-import  project04.tests.utilsTests as utilsTests
-import project04.tests.marriageAgeTests as marriageAgeTests, project04.tests.includeAgeTests as includeAgeTests
-import project04.tests.illegitimateAgeTests as illegitimateAgeTests, project04.tests.correctGenderTests as correctGenderTests
-import project04.tests.dateCheckTests as dateCheckTests, project04.tests.siblingAgeTests as siblingAgeTests
+import  project06.tests.utilsTests as utilsTests
+import project06.tests.marriageAgeTests as marriageAgeTests, project06.tests.includeAgeTests as includeAgeTests
+import project06.tests.illegitimateAgeTests as illegitimateAgeTests, project06.tests.correctGenderTests as correctGenderTests
+import project06.tests.dateCheckTests as dateCheckTests, project06.tests.siblingAgeTests as siblingAgeTests
+import project06.tests.siblingMarriageTests as siblingMarriageTests, project06.tests.noParentMarriageTests as noParentMarriageTests
 
 if __name__ == '__main__':
     #mainTestSuite = mainTests.suite()
@@ -13,5 +14,7 @@ if __name__ == '__main__':
     illegitimateAgeTestSuite = illegitimateAgeTests.suite()
     dateCheckTestSuite = dateCheckTests.suite()
     siblingAgeTestSuite = siblingAgeTests.suite()
-    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite])
+    siblingMarriageTestSuite = siblingMarriageTests.suite()
+    noParentMarriageTestSuite = noParentMarriageTests.suite()
+    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite, siblingMarriageTestSuite, noParentMarriageTestSuite])
     unittest.TextTestRunner(verbosity=2).run(alltests)

@@ -1,6 +1,6 @@
 import unittest
-import project04.src.siblingAge as siblingAge
-import project04.src.includeAge as includeAge
+import project06.src.siblingAge as siblingAge
+import project06.src.includeAge as includeAge
 
 def suite():
     suite = unittest.TestLoader().loadTestsFromTestCase(siblingAgeTestCase)

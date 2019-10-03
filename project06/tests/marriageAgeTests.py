@@ -1,5 +1,5 @@
 import unittest
-import project04.src.marriageAge as marriageAge
+import project06.src.marriageAge as marriageAge
 
 def suite():
     suite = unittest.TestLoader().loadTestsFromTestCase(marriageAgeTestCase)
