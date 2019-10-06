@@ -1,0 +1,31 @@
+Individuals:
++-----+-----------------+--------+-------------+------------+-------+-------+--------+-----+
+|  ID |       Name      | Gender |    Birth    |   Death    | Alive | Child | Spouse | Age |
++-----+-----------------+--------+-------------+------------+-------+-------+--------+-----+
+| I02 |   Ginger Mami   |   F    | 10 AUG 1989 | 7 OCT 2019 |   N   |  N/A  |  F03   |  30 |
+| I03 |   Hersh E. Son  |   M    |  4 OCT 1989 |    N/A     |   Y   |  F03  |  F01   |  30 |
+| I01 |  Hersh E. Daddy |   M    |  4 OCT 1989 |    N/A     |   Y   |  N/A  |  F03   |  30 |
+| I04 | Ginger Daughter |   F    | 10 AUG 1989 | 7 OCT 2019 |   N   |  F03  |  F01   |  30 |
+| I99 |  George /Kane/  |   M    | 25 AUG 1995 |    N/A     |   Y   |  N/A  |  F99   |  24 |
+| I98 |   Candy /Bar/   |   F    | 16 JUN 1995 |    N/A     |   Y   |  F100 |  F99   |  24 |
++-----+-----------------+--------+-------------+------------+-------+-------+--------+-----+
+Families:
++-----+-------------+----------+------------+----------------+---------+-----------------+----------------+
+|  ID |   Married   | Divorced | Husband ID |  Husband Name  | Wife ID |    Wife Name    |    Children    |
++-----+-------------+----------+------------+----------------+---------+-----------------+----------------+
+| F99 |  9 MAR 2010 |   N/A    |    I98     |  Candy /Bar/   |   I99   |  George /Kane/  |      N/A       |
+| F01 | 14 FEB 1990 |   N/A    |    I03     |  Hersh E. Son  |   I04   | Ginger Daughter |      N/A       |
+| F03 | 14 FEB 1990 |   N/A    |    I01     | Hersh E. Daddy |   I02   |   Ginger Mami   | ['I03', 'I04'] |
++-----+-------------+----------+------------+----------------+---------+-----------------+----------------+
+Anomaly US10: Ginger Daughter (I04) and Hersh E. Son (I03) married too young in family F01!
+Anomaly US10: Ginger Mami (I02) and Hersh E. Daddy (I01) married too young in family F03!
+Anomaly US21: Gender of individual I99: George /Kane/ does not match role.
+Anomaly US21: Gender of individual I98: Candy /Bar/ does not match role.
+Family id F99
+No children in this family
+Family id F01
+No children in this family
+Family id F03
+I04: Ginger Daughter is 30 years old
+I03: Hersh E. Son is 30 years old
+Anomaly US 18: in Family F01 husband I03: Hersh E. Son and wife I04: Ginger Daughter are children in the same family
