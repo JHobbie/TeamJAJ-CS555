@@ -162,6 +162,8 @@ if __name__ == "__main__":
 
     utils.writeErrors(us18Anomalies, writefi)
     utils.writeErrors(us17Anomalies, writefi)
+    utils.writeErrors(recentDeathsList, writefi)
+    utils.writeErrors(recentBirthsList, writefi)
     print(familyDict)
     writefi.close()
 
