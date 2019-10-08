@@ -8,6 +8,7 @@ import project06.src.utils as utils
 import project06.src.marriageAge as marriageAge, project06.src.includeAge as includeAge
 import project06.src.siblingAge as siblingAge, project06.src.illegitimateDates as illegitimateDates, project06.src.correctGender as correctGender, project06.src.dateCheck as dateCheck
 import project06.src.noSibMarriage as noSibMarriage, project06.src.noParentMarriage as noParentMarriage
+import project06.src.recentBirths as recentBirths, project06.src.recentDeaths as recentDeaths
 from prettytable import PrettyTable
 tags0 = ["HEAD", "TRLR", "NOTE"]
 tags1 = ["NAME", "SEX", "BIRT", "DEAT", "FAMC",
@@ -151,6 +152,8 @@ if __name__ == "__main__":
     us18Anomalies = noSibMarriage.noSiblingIncest(familyDict, individualDict)
     us17Anomalies = noParentMarriage.noParentIncest(familyDict, individualDict)
     us01Anomalies = dateCheck.dateCheck(familyDict, individualDict)
+    recentDeathsList = recentDeaths.listRecentDeaths(familyDict, individualDict)
+    recentBirthsList = recentBirths.listRecentBirths(familyDict, individualDict)
     utils.writeErrors(us10Anomalies, writefi)
     utils.writeErrors(us42Anomalies, writefi)
     utils.writeErrors(us21Anomalies, writefi)
@@ -159,6 +162,8 @@ if __name__ == "__main__":
 
     utils.writeErrors(us18Anomalies, writefi)
     utils.writeErrors(us17Anomalies, writefi)
+    utils.writeErrors(recentDeathsList, writefi)
+    utils.writeErrors(recentBirthsList, writefi)
     print(familyDict)
     writefi.close()
 
