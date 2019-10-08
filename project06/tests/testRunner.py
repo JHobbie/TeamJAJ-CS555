@@ -4,6 +4,7 @@ import project06.tests.marriageAgeTests as marriageAgeTests, project06.tests.inc
 import project06.tests.illegitimateAgeTests as illegitimateAgeTests, project06.tests.correctGenderTests as correctGenderTests
 import project06.tests.dateCheckTests as dateCheckTests, project06.tests.siblingAgeTests as siblingAgeTests
 import project06.tests.siblingMarriageTests as siblingMarriageTests, project06.tests.noParentMarriageTests as noParentMarriageTests
+import project06.tests.recentBirthsTests as recentBirthsTests, project06.tests.recentDeathsTests as recentDeathsTests
 
 if __name__ == '__main__':
     #mainTestSuite = mainTests.suite()
@@ -16,5 +17,8 @@ if __name__ == '__main__':
     siblingAgeTestSuite = siblingAgeTests.suite()
     siblingMarriageTestSuite = siblingMarriageTests.suite()
     noParentMarriageTestSuite = noParentMarriageTests.suite()
-    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite, siblingMarriageTestSuite, noParentMarriageTestSuite])
+    recentBirthsTestSuite = recentBirthsTests.suite()
+    recentDeathsTestSuite = recentDeathsTests.suite()
+    
+    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite, siblingMarriageTestSuite, noParentMarriageTestSuite, recentBirthsTestSuite, recentDeathsTestSuite])
     unittest.TextTestRunner(verbosity=2).run(alltests)
