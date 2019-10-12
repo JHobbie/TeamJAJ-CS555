@@ -12,6 +12,7 @@ def listRecentDeaths(familyDict, individualDict):
         if 'DEAT' in currInd.keys():
             deatDate = datetime.datetime.strptime(currInd['DEAT'][0], '%d %b %Y')
             if pastDate <= deatDate < currDate:
-                deathList += ["Individual " + currInd['ID'] + ": " + currInd['NAME'][0]]
+                deathList += ["US36: Individual " + currInd['ID'] + ": " + currInd['NAME'][0]]
+    if deathList == []:
+        deathList += ["US36: No recent deaths."]
     return deathList
-
