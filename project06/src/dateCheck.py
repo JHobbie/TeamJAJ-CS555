@@ -8,25 +8,30 @@ def dateCheck(familyDict, individualDict):
     currDate = datetime.datetime.today()
     for key in familyDict.keys():
         currFam = familyDict[key]
-
-        calculatedDate = datetime.datetime.strptime(currFam['MARR'][0], '%d %b %Y')
-        if calculatedDate > currDate:
-            err_msg += ["Error US 01: Family " + currFam['ID'] + " has marriage date in the future"]
-        if 'DIV' in currFam.keys():
-            calculatedDate = datetime.datetime.strptime(currFam['DIV'][0], '%d %b %Y')
-            if (calculatedDate > currDate):
-                err_msg += ["Error US 01: Family " + currFam['ID'] + " has divorce date in the future"]
-   
+        try:
+            calculatedDate = datetime.datetime.strptime(currFam['MARR'][0], '%d %b %Y')
+            if calculatedDate > currDate:
+                err_msg += ["Error US 01: Family " + currFam['ID'] + " has marriage date in the future"]
+        except ValueError :
+            pass
+        try:
+            if 'DIV' in currFam.keys():
+                calculatedDate = datetime.datetime.strptime(currFam['DIV'][0], '%d %b %Y')
+                if (calculatedDate > currDate):
+                    err_msg += ["Error US 01: Family " + currFam['ID'] + " has divorce date in the future"]
+        except ValueError:
+            pass
     for key in individualDict.keys():
         currInd = individualDict[key]
-        
-        calculatedDate = datetime.datetime.strptime(currInd['BIRT'][0], '%d %b %Y')
-        if (calculatedDate > currDate):
-            err_msg += ["Error US 01: Individual " + currInd['ID'] + " has birth date in the future"]
-        if 'DEAT' in currInd.keys():
-            calculatedDate = datetime.datetime.strptime(currInd['DEAT'][0], '%d %b %Y')
+        try:
+            calculatedDate = datetime.datetime.strptime(currInd['BIRT'][0], '%d %b %Y')
             if (calculatedDate > currDate):
-                err_msg += ["Error US 01: Individual " + currInd['ID'] + " has death date in the future"]
-
+                err_msg += ["Error US 01: Individual " + currInd['ID'] + " has birth date in the future"]
+            if 'DEAT' in currInd.keys():
+                calculatedDate = datetime.datetime.strptime(currInd['DEAT'][0], '%d %b %Y')
+                if (calculatedDate > currDate):
+                    err_msg += ["Error US 01: Individual " + currInd['ID'] + " has death date in the future"]
+        except ValueError:
+            pass
     return err_msg
 

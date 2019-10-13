@@ -1,0 +1,80 @@
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Start of Parents marriage
+<--0|NOTE|Y|Start of Parents marriage
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. Daddy
+<--1|NAME|Y|Hersh E. Daddy
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1990
+<--2|DATE|Y|4 OCT 1990
+-->1 FAMS F03
+<--1|FAMS|Y|F03
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger Mami
+<--1|NAME|Y|Ginger Mami
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1990
+<--2|DATE|Y|10 AUG 1990
+-->1 FAMS F03
+<--1|FAMS|Y|F03
+-->0 F03 FAM
+<--0|FAM|Y|F03
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 2010
+<--2|DATE|Y|14 FEB 2010
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Hersh E. Daddy
+<--1|NAME|Y|Hersh E. Daddy
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1990
+<--2|DATE|Y|4 OCT 1990
+-->1 FAMS F04
+<--1|FAMS|Y|F04
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME Ginger Dead
+<--1|NAME|Y|Ginger Dead
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1990
+<--2|DATE|Y|10 AUG 1990
+-->1 DEAT Y
+<--1|DEAT|Y|Y
+-->2 DATE 7 OCT 2011
+<--2|DATE|Y|7 OCT 2011
+-->1 FAMS F04
+<--1|FAMS|Y|F04
+-->0 F04 FAM
+<--0|FAM|Y|F04
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 2010
+<--2|DATE|Y|14 FEB 2010
+-->1 HUSB I03
+<--1|HUSB|Y|I03
+-->1 WIFE I04
+<--1|WIFE|Y|I04
+-->0 TRLR
+<--0|TRLR|Y|
