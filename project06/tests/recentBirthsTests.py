@@ -5,7 +5,7 @@ def suite():
     suite = unittest.TestLoader().loadTestsFromTestCase(recentBirthsTestCase)
     return suite
 class recentBirthsTestCase(unittest.TestCase):
-    def setup(self):
+    def setUp(self):
         #i02
         self.mom = {'NAME': ['Ginger /Bred/'],  'FAMS': ['F01'], 'BIRT': ['10 AUG 1989'], 'SEX': ['M'], 'type': 'INDI', 'ID': 'I02', 'DEAT': ['9 OCT 2020']}
         #i01
@@ -31,6 +31,9 @@ class recentBirthsTestCase(unittest.TestCase):
         self.child2 = None
         self.child3 = None
         self.child4 = None
+        self.family = None 
+        self.familyDict = None 
+        self.individualDict = None
     
     def test_listRecentBirths(self):
         birthList = recentBirths.listRecentBirths(self.familyDict, self.individualDict)

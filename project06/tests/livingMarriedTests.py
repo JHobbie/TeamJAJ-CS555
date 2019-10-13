@@ -6,7 +6,7 @@ def suite():
     return suite
 
 class livingMarriedTestCase(unittest.TestCase):
-	def setup(self):
+	def setUp(self):
 		self.ginger = {'NAME': ['Ginger /Bred/'],  'FAMS': ['F01'], 'BIRT': ['10 AUG 1979'], 'SEX': ['M'], 'type': 'INDI', 'ID': 'I02', 'DEAT': ['9 OCT 2002']}
 		self.hersh = {'NAME': ['Hersh E. /Bar/'],  'FAMS': ['F01'], 'BIRT': ['4 OCT 1970'], 'SEX': ['M'], 'type': 'INDI', 'ID': 'I01'}
 		self.candy = {'NAME': ['Candy /Kane/'],  'FAMS': ['F02'], 'BIRT': ['20 DEC 1991'], 'SEX': ['F'], 'type': 'INDI', 'ID': 'I03'}
@@ -19,7 +19,7 @@ class livingMarriedTestCase(unittest.TestCase):
 		self.famDict = {'F01': self.family, 'F02' : self.family2}
 		self.indiDict = {'I02' : self.ginger, 'I01' : self.hersh, 'I03' : self.candy, 'I04' : self.george, 'I05' : self.reese}
 
-	def teardown(self):
+	def tearDown(self):
 		self.ginger = None
 		self.hersh = None
 		self.candy = None

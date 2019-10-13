@@ -5,7 +5,7 @@ def suite():
     suite = unittest.TestLoader().loadTestsFromTestCase(recentDeathsTestCase)
     return suite
 class recentDeathsTestCase(unittest.TestCase):
-    def setup(self):
+    def setUp(self):
         #i02
         self.mom = {'NAME': ['Ginger /Bred/'],  'FAMS': ['F01'], 'BIRT': ['10 AUG 1989'], 'SEX': ['M'], 'type': 'INDI', 'ID': 'I02', 'DEAT': ['9 OCT 2019']}
         #i01

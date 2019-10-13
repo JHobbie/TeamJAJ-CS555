@@ -12,7 +12,7 @@ def listRecentBirths(familyDict, individualDict):
         if 'BIRT' in currInd.keys():
             birthDate = datetime.datetime.strptime(currInd['BIRT'][0], '%d %b %Y')
             if pastDate <= birthDate < currDate:
-                deathList += ["US35: Individual " + currInd['ID'] + ": " + currInd['NAME'][0]]
+                birthList += ["US35: Individual " + currInd['ID'] + ": " + currInd['NAME'][0]]
     if birthList == []:
         birthList += ["US35: No recent births."]
     return birthList
