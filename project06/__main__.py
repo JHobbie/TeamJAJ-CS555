@@ -9,7 +9,7 @@ import project06.src.marriageAge as marriageAge, project06.src.includeAge as inc
 import project06.src.siblingAge as siblingAge, project06.src.illegitimateDates as illegitimateDates, project06.src.correctGender as correctGender, project06.src.dateCheck as dateCheck
 import project06.src.noSibMarriage as noSibMarriage, project06.src.noParentMarriage as noParentMarriage
 import project06.src.recentBirths as recentBirths, project06.src.recentDeaths as recentDeaths
-import project06.tests.listDeceased as listDeceased, project06.tests.livingMarried as livingMarried
+import project06.src.listDeceased as listDeceased, project06.src.livingMarried as livingMarried
 
 from prettytable import PrettyTable
 tags0 = ["HEAD", "TRLR", "NOTE"]
