@@ -1,0 +1,19 @@
+Individuals:
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+|  ID |      Name      | Gender |    Birth    |   Death    | Alive | Child | Spouse | Age |
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+| I02 |  Ginger Mami   |   F    | 10 AUG 1990 | 7 OCT 2019 |   N   |  N/A  |  F03   |  29 |
+| I01 | Hersh E. Daddy |   M    |  4 OCT 2019 |    N/A     |   Y   |  N/A  |  F03   |  0  |
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+Families:
++-----+-------------+----------+------------+----------------+---------+-------------+----------+
+|  ID |   Married   | Divorced | Husband ID |  Husband Name  | Wife ID |  Wife Name  | Children |
++-----+-------------+----------+------------+----------------+---------+-------------+----------+
+| F03 | 14 FEB 2010 |   N/A    |    I01     | Hersh E. Daddy |   I02   | Ginger Mami |   N/A    |
++-----+-------------+----------+------------+----------------+---------+-------------+----------+
+Anomaly US10: Ginger Mami (I02) and Hersh E. Daddy (I01) married too young in family F03!
+US28: Family id F03
+US28: No children in this family
+US36: Individual I02: Ginger Mami
+US35: Individual I01: Hersh E. Daddy
+US29: Ginger Mamiis deceased.

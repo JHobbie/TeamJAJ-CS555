@@ -3,4 +3,4 @@ python:
   - "2.7"
 cache: pip
 script:
-  - python -m project06.tests.testRunner
+  - python -m gedComProj.tests.testRunner

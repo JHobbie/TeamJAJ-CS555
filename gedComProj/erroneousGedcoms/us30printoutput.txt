@@ -1,0 +1,25 @@
+Individuals:
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+|  ID |      Name      | Gender |    Birth    |   Death    | Alive | Child | Spouse | Age |
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+| I02 |  Ginger Mami   |   F    | 10 AUG 1990 |    N/A     |   Y   |  N/A  |  F03   |  29 |
+| I03 | Hersh E. Daddy |   M    |  4 OCT 1990 |    N/A     |   Y   |  N/A  |  F04   |  29 |
+| I01 | Hersh E. Daddy |   M    |  4 OCT 1990 |    N/A     |   Y   |  N/A  |  F03   |  29 |
+| I04 |  Ginger Dead   |   F    | 10 AUG 1990 | 7 OCT 2011 |   N   |  N/A  |  F04   |  29 |
++-----+----------------+--------+-------------+------------+-------+-------+--------+-----+
+Families:
++-----+-------------+----------+------------+----------------+---------+-------------+----------+
+|  ID |   Married   | Divorced | Husband ID |  Husband Name  | Wife ID |  Wife Name  | Children |
++-----+-------------+----------+------------+----------------+---------+-------------+----------+
+| F04 | 14 FEB 2010 |   N/A    |    I03     | Hersh E. Daddy |   I04   | Ginger Dead |   N/A    |
+| F03 | 14 FEB 2010 |   N/A    |    I01     | Hersh E. Daddy |   I02   | Ginger Mami |   N/A    |
++-----+-------------+----------+------------+----------------+---------+-------------+----------+
+US28: Family id F04
+US28: No children in this family
+US28: Family id F03
+US28: No children in this family
+US36: No recent deaths.
+US35: No recent births.
+US29: Ginger Deadis deceased.
+US30: Hersh E. Daddyis living and married.
+US30: Ginger Mamiis living and married.
