@@ -6,6 +6,7 @@ import gedComProj.tests.dateCheckTests as dateCheckTests, gedComProj.tests.sibli
 import gedComProj.tests.siblingMarriageTests as siblingMarriageTests, gedComProj.tests.noParentMarriageTests as noParentMarriageTests
 import gedComProj.tests.recentBirthsTests as recentBirthsTests, gedComProj.tests.recentDeathsTests as recentDeathsTests
 import gedComProj.tests.listDeceasedTests as listDeceasedTests, gedComProj.tests.livingMarriedTests as livingMarriedTests
+import gedComProj.tests.us05Tests as us05Tests
 
 if __name__ == '__main__':
     #mainTestSuite = mainTests.suite()
@@ -22,6 +23,6 @@ if __name__ == '__main__':
     recentDeathsTestSuite = recentDeathsTests.suite()
     listDeceasedTestSuite = listDeceasedTests.suite()
     livingMarriedTestSuite = livingMarriedTests.suite()
-    
-    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite, siblingMarriageTestSuite, noParentMarriageTestSuite, recentBirthsTestSuite, recentDeathsTestSuite, listDeceasedTestSuite, livingMarriedTestSuite])
+    us05TestsSuite = us05Tests.suite()
+    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite, siblingMarriageTestSuite, noParentMarriageTestSuite, recentBirthsTestSuite, recentDeathsTestSuite, listDeceasedTestSuite, livingMarriedTestSuite, us05TestsSuite])
     unittest.TextTestRunner(verbosity=2).run(alltests)
