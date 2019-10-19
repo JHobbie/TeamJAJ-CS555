@@ -12,7 +12,7 @@ def checkFamily(family, individualDict):
     if('DEAT' in husband.keys()):
         husbandDeath = utils.calcDate(husband['DEAT'][0])
         if(husbandDeath < marriageDate):
-            errMsg += [("Error US05: Husband %s: %s in family %s died before she got married" %(husband['ID'], husband['NAME'][0], family['ID']))]
+            errMsg += [("Error US05: Husband %s: %s in family %s died before he got married" %(husband['ID'], husband['NAME'][0], family['ID']))]
     return errMsg
 
 def checkMarriageBeforeDeath(familyDict, individualDict):

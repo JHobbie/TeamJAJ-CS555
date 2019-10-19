@@ -10,6 +10,7 @@ import gedComProj.src.siblingAge as siblingAge, gedComProj.src.illegitimateDates
 import gedComProj.src.noSibMarriage as noSibMarriage, gedComProj.src.noParentMarriage as noParentMarriage
 import gedComProj.src.recentBirths as recentBirths, gedComProj.src.recentDeaths as recentDeaths
 import gedComProj.src.listDeceased as listDeceased, gedComProj.src.livingMarried as livingMarried
+import gedComProj.src.us04Story as us04Story, gedComProj.src.us05Story as us05Story
 
 from prettytable import PrettyTable
 tags0 = ["HEAD", "TRLR", "NOTE"]
@@ -154,11 +155,13 @@ if __name__ == "__main__":
     us18Anomalies = noSibMarriage.noSiblingIncest(familyDict, individualDict)
     us17Anomalies = noParentMarriage.noParentIncest(familyDict, individualDict)
     us01Anomalies = dateCheck.dateCheck(familyDict, individualDict)
+    us04Errors = us04Story.checkMarriageBeforeDivorce(familyDict)
+    us05Errors = us05Story.checkMarriageBeforeDeath(familyDict,individualDict)
     recentDeathsList = recentDeaths.listRecentDeaths(familyDict, individualDict)
     recentBirthsList = recentBirths.listRecentBirths(familyDict, individualDict)
     deceasedList = listDeceased.listDeceased(individualDict)
     livingMarriedList = livingMarried.livingMarried(individualDict, familyDict)
-
+    
     utils.writeErrors(us10Anomalies, writefi)
     utils.writeErrors(us42Anomalies, writefi)
     utils.writeErrors(us21Anomalies, writefi)
