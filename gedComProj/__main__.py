@@ -11,6 +11,8 @@ import gedComProj.src.noSibMarriage as noSibMarriage, gedComProj.src.noParentMar
 import gedComProj.src.recentBirths as recentBirths, gedComProj.src.recentDeaths as recentDeaths
 import gedComProj.src.listDeceased as listDeceased, gedComProj.src.livingMarried as livingMarried
 import gedComProj.src.us04Story as us04Story, gedComProj.src.us05Story as us05Story
+import gedComProj.src.us14Story as us14Story, gedComProj.src.us16Story as us16Story
+
 
 from prettytable import PrettyTable
 tags0 = ["HEAD", "TRLR", "NOTE"]
@@ -161,6 +163,8 @@ if __name__ == "__main__":
     recentBirthsList = recentBirths.listRecentBirths(familyDict, individualDict)
     deceasedList = listDeceased.listDeceased(individualDict)
     livingMarriedList = livingMarried.livingMarried(individualDict, familyDict)
+    us14Errors = us14Story.multipleBirths(individualDict, familyDict)
+    us16Errors = us16Story.maleLastNames(individualDict, familyDict)
     
     utils.writeErrors(us10Anomalies, writefi)
     utils.writeErrors(us42Anomalies, writefi)
@@ -175,6 +179,11 @@ if __name__ == "__main__":
 
     utils.writeErrors(deceasedList, writefi)
     utils.writeErrors(livingMarriedList, writefi)
+
+    utils.writeErrors(us04Errors, writefi)
+    utils.writeErrors(us05Errors, writefi)
+    utils.writeErrors(us14Errors, writefi)
+    utils.writeErrors(us16Errors, writefi)
 
     print(familyDict)
     writefi.close()
