@@ -8,7 +8,7 @@ def fewerSiblings(familyDict):
         if 'CHIL' in currFam:
             kidlist = currFam['CHIL']
             if len(kidlist) >= 15:
-                retList += [("US15: There are too many kids is family")]
+                retList += [("US15: There are too many kids in this family")]
         else:
             retList+= ["US15: No children in this family"]
     return retList

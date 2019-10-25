@@ -12,6 +12,8 @@ import gedComProj.src.recentBirths as recentBirths, gedComProj.src.recentDeaths 
 import gedComProj.src.listDeceased as listDeceased, gedComProj.src.livingMarried as livingMarried
 import gedComProj.src.us04Story as us04Story, gedComProj.src.us05Story as us05Story
 import gedComProj.src.us14Story as us14Story, gedComProj.src.us16Story as us16Story
+import gedComProj.src.fewerSiblings as fewerSiblings, gedComProj.src.lessThan150 as lessThan150
+
 
 
 from prettytable import PrettyTable
@@ -165,6 +167,8 @@ if __name__ == "__main__":
     livingMarriedList = livingMarried.livingMarried(individualDict, familyDict)
     us14Errors = us14Story.multipleBirths(individualDict, familyDict)
     us16Errors = us16Story.maleLastNames(individualDict, familyDict)
+    fewerSiblingsErrors = fewerSiblings.fewerSiblings(familyDict)
+    lessThan150Errors = lessThan150.lessThan150(individualDict)
     
     utils.writeErrors(us10Anomalies, writefi)
     utils.writeErrors(us42Anomalies, writefi)
@@ -184,6 +188,8 @@ if __name__ == "__main__":
     utils.writeErrors(us05Errors, writefi)
     utils.writeErrors(us14Errors, writefi)
     utils.writeErrors(us16Errors, writefi)
+    utils.writeErrors(fewerSiblingsErrors, writefi)
+    utils.writeErrors(lessThan150Errors, writefi)
 
     print(familyDict)
     writefi.close()
