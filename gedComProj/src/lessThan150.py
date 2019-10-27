@@ -25,17 +25,16 @@ def calculateAge(individual, inputDateObj):
 
 def lessThan150(individualDict):
     retList = []
-    currDate = datetime.now()
+    currDate = datetime.datetime.now()
     for key in individualDict.keys():
-        currInd = individualDict[keys]
-        deathDate = calcDate(currInd['DEAT'][0])
-        birthDate = calcDate(currInd['BIRT'][0])
+        currInd = individualDict[key]
         if 'DEAT' in currInd.keys():
+            deathDate = calcDate(currInd['DEAT'][0])
             if calculateAge(currInd, deathDate) >= 150:
-                retList += [("Error US07: " + currInd['NAME'] + "was too old when they passed away.")]
+                retList += [("Error US07: " + currInd['NAME'][0] + "was too old when they passed away.")]
         else:
             age = calculateAge(currInd, currDate)
             if age >= 150:
-                retList += [("Error US07: " + currInd['NAME'] + "is too old.")]
+                retList += [("Error US07: " + currInd['NAME'][0] + "is too old.")]
     return retList
 

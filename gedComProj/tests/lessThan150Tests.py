@@ -16,8 +16,7 @@ class lessThan150TestCase(unittest.TestCase):
 	self.child2 = {'NAME': ['Reese /Piece/'], 'BIRT': ['20 MAY 1860'], 'SEX': ['M'], 'type': 'INDI', 'ID': 'I05'}
 	
 
-	self.familyDict = {'F01': self.family}
-	self.individualDict = {'I02' : self.mom, 'I01' : self.dad, 'I03' : self.child1, 'I05' : self.child2, 'I06' : self.child4, 'I07' : self.child3, 'I08' : self.child5, 'I09' : self.child6}
+	self.individualDict = {'I02' : self.mom, 'I01' : self.dad, 'I03' : self.child1, 'I05' : self.child2}
 
     def tearDown(self):
         self.mom = None
