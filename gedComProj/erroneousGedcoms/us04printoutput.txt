@@ -1,0 +1,30 @@
+Individuals:
++-----+-------------------+--------+-------------+-------+-------+-------+--------+-----+
+|  ID |        Name       | Gender |    Birth    | Death | Alive | Child | Spouse | Age |
++-----+-------------------+--------+-------------+-------+-------+-------+--------+-----+
+| I02 |  Ginger Divorced  |   F    | 10 AUG 1990 |  N/A  |   Y   |  N/A  |  F03   |  29 |
+| I03 |  Hersh E. Married |   M    |  4 OCT 1990 |  N/A  |   Y   |  N/A  |  F01   |  29 |
+| I01 | Hersh E. Divorced |   M    |  4 OCT 1990 |  N/A  |   Y   |  N/A  |  F03   |  29 |
+| I04 |   Ginger Married  |   F    | 10 AUG 1990 |  N/A  |   Y   |  N/A  |  F01   |  29 |
++-----+-------------------+--------+-------------+-------+-------+-------+--------+-----+
+Families:
++-----+-------------+----------+------------+-------------------+---------+-----------------+----------+
+|  ID |   Married   | Divorced | Husband ID |    Husband Name   | Wife ID |    Wife Name    | Children |
++-----+-------------+----------+------------+-------------------+---------+-----------------+----------+
+| F01 | 14 FEB 2010 |   N/A    |    I03     |  Hersh E. Married |   I04   |  Ginger Married |   N/A    |
+| F03 | 14 FEB 2010 |   N/A    |    I01     | Hersh E. Divorced |   I02   | Ginger Divorced |   N/A    |
++-----+-------------+----------+------------+-------------------+---------+-----------------+----------+
+US28: Family id F01
+US28: No children in this family
+US28: Family id F03
+US28: No children in this family
+US36: No recent deaths.
+US35: No recent births.
+US29: There are no deceased individuals.
+US30: Hersh E. Marriedis living and married.
+US30: Ginger Marriedis living and married.
+US30: Hersh E. Divorcedis living and married.
+US30: Ginger Divorcedis living and married.
+Error US04: Divorce date is before marriage date in family F03
+US15: No children in this family
+US15: No children in this family

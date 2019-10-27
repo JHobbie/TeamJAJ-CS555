@@ -1,0 +1,181 @@
+Individuals:
++--------------+--------------------+--------+-------------+-------------+-------+----------+-------------+------+
+|      ID      |        Name        | Gender |    Birth    |    Death    | Alive |  Child   |    Spouse   | Age  |
++--------------+--------------------+--------+-------------+-------------+-------+----------+-------------+------+
+|    IMAMI     |    Ginger Mami     |   F    | 10 AUG 1989 |  7 OCT 2019 |   N   |   N/A    |   FSONNMOM  |  30  |
+|  OLDLIVEMAN  |     OLDER FART     |   M    | 10 AUG 0001 |     N/A     |   Y   |   N/A    |     N/A     | 2018 |
+|    IDADDY    |   Hersh E. Daddy   |   M    |  4 OCT 1989 |     N/A     |   Y   |   N/A    | FDADNDAUGHT |  30  |
+| IDIVDEADHUSB |   HE DEADVORCED    |   M    | 10 AUG 1990 | 11 AUG 1990 |   N   |   N/A    | FDIVDEADFAM |  29  |
+|     IDED     |     SHE JUSDED     |   F    | 10 AUG 1990 |  7 OCT 2019 |   N   |   N/A    |  FDEDNBABE  |  29  |
+|     IDAD     |   Hersh E. Daddy   |   M    |  4 OCT 1989 |     N/A     |   Y   |   N/A    |     FPAR    |  30  |
+|   IDAUGHTY   |  Ginger Daughter   |   F    | 10 AUG 1989 |  7 OCT 2019 |   N   | FPARENTS | FDADNDAUGHT |  30  |
+|   IKIDSMOM   |     DANG KIDS      |   F    | 10 AUG 1990 |     N/A     |   Y   |   N/A    |   MEGAFAM   |  29  |
+|   IDAUGHT    |  Ginger Daughter   |   F    | 10 AUG 1989 |  7 OCT 2019 |   N   |   FPAR   |     FSIB    |  30  |
+| IDIVDEADWIFE |   SHE DEADVORCED   |   M    | 10 AUG 1990 | 11 AUG 1990 |   N   |   N/A    | FDIVDEADFAM |  29  |
+|   HISNAME    |      HEIS MAN      |   F    | 12 AUG 1990 |     N/A     |   Y   |   N/A    |  IMALELAST  |  29  |
+| QUINTUPLET4  |     QUINTUPLET     |   F    | 11 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+| QUINTUPLET5  |     QUINTUPLET     |   F    | 11 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+| QUINTUPLET1  |     QUINTUPLET     |   F    | 11 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+| QUINTUPLET2  |     QUINTUPLET     |   F    | 11 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+| QUINTUPLET3  |     QUINTUPLET     |   F    | 11 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+| MYWOMANNAME  |     IAM WOMAN      |   F    | 12 AUG 1990 |     N/A     |   Y   |   N/A    | IFEMALELAST |  29  |
+|  MYMANNAME   |      IAM MAN       |   M    | 12 AUG 1990 |     N/A     |   Y   |   N/A    |  IMALELAST  |  29  |
+|  SEXTUPLET1  |     SEXTUPLET1     |   F    | 10 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|  SEXTUPLET2  |     SEXTUPLET      |   F    | 10 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|  SEXTUPLET3  |     SEXTUPLET      |   F    | 10 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|  SEXTUPLET4  |     SEXTUPLET      |   F    | 10 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|   IDIVWIFE   |    SHE DIVORCED    |   F    | 10 AUG 1990 |     N/A     |   Y   |   N/A    |   FDIVFAM   |  29  |
+|  SEXTUPLET6  |     SEXTUPLET      |   F    | 10 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|    IBABY     |    HE JUSTBORN     |   M    |  4 OCT 2019 |     N/A     |   Y   |   N/A    |  FDEDNBABE  |  0   |
+| QUADRUPLET2  |     QUADRUPLET     |   F    | 12 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|     ISON     |    Hersh E. Son    |   M    |  4 OCT 1989 |     N/A     |   Y   |   FPAR   |     FSIB    |  30  |
+|    ISONNY    |    Hersh E. Son    |   M    |  4 OCT 1989 |     N/A     |   Y   | FPARENTS |   FSONNMOM  |  30  |
+|   HERNAME    |    SHEIS WOMAN     |   M    | 12 AUG 1990 |     N/A     |   Y   |   N/A    | IFEMALELAST |  29  |
+| QUADRUPLET1  |     QUADRUPLET     |   F    | 12 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|   IKIDSDAD   |      TOO MANY      |   M    | 10 AUG 1990 |     N/A     |   Y   |   N/A    |   MEGAFAM   |  29  |
+| QUADRUPLET3  |     QUADRUPLET     |   F    | 12 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|   IDIVHUSB   |    HE DIVORCED     |   M    | 10 AUG 1990 |     N/A     |   Y   |   N/A    |   FDIVFAM   |  29  |
+|     IMOM     |    Ginger Mami     |   F    | 10 AUG 1989 |  7 OCT 2019 |   N   |   N/A    |     FPAR    |  30  |
+|  SEXTUPLET5  |     SEXTUPLET      |   F    | 10 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
+|     I02      |   Ginger /Bred/    |   M    | 10 AUG 1970 |  7 OCT 2019 |   N   |   N/A    |     F01     |  49  |
+|     I03      |    Candy /Bar/     |   F    | 16 JUN 2010 |     N/A     |   Y   |   F01    |     F02     |  9   |
+|     I01      |   Hersh E. /Bar/   |   M    |  4 OCT 2999 |     N/A     |   Y   |   N/A    |     F01     | -980 |
+|     I06      |     Mars /Bar/     |   M    | 20 MAY 1994 |     N/A     |   Y   |   F01    |     N/A     |  25  |
+|     I07      |    Lemon /Bar/     |   F    | 11 JUN 1995 |     N/A     |   Y   |   F01    |     F03     |  24  |
+|     I04      |   George /Kane/    |   M    | 25 AUG 1995 |     N/A     |   Y   |   N/A    |     F02     |  24  |
+|     I05      |    Reese /Bar/     |   M    | 40 MAY 1994 |  7 SEP 2015 |   N   |   F01    |     N/A     |  0   |
+|  OLDDEADMAN  |      OLD FART      |   M    | 10 AUG 0001 | 11 AUG 0151 |   N   |   N/A    |     N/A     | 2018 |
+|     I08      |   Timothy /Drop/   |   M    |  5 SEP 1992 |     N/A     |   Y   |   N/A    |     F03     |  27  |
+|     I09      | Marshmallow /Kane/ |   F    |  9 AUG 2016 |     N/A     |   Y   |   F02    |     N/A     |  3   |
+| QUADRUPLET4  |     QUADRUPLET     |   F    | 12 AUG 2000 |     N/A     |   Y   | MEGAFAM  |     N/A     |  19  |
++--------------+--------------------+--------+-------------+-------------+-------+----------+-------------+------+
+Families:
++-------------+-------------+----------+--------------+----------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|      ID     |   Married   | Divorced |  Husband ID  |  Husband Name  |   Wife ID    |    Wife Name    |                                                                                                           Children                                                                                                          |
++-------------+-------------+----------+--------------+----------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|     FPAR    | 14 FEB 1990 |   N/A    |     IDAD     | Hersh E. Daddy |     IMOM     |   Ginger Mami   |                                                                                                     ['ISON', 'IDAUGHT']                                                                                                     |
+|  FDEDNBABE  | 14 FEB 2010 |   N/A    |    IBABY     |  HE JUSTBORN   |     IDED     |    SHE JUSDED   |                                                                                                             N/A                                                                                                             |
+|   MEGAFAM   | 14 FEB 2010 |   N/A    |   IKIDSDAD   |    TOO MANY    |   IKIDSMOM   |    DANG KIDS    | ['SEXTUPLET1', 'SEXTUPLET2', 'SEXTUPLET3', 'SEXTUPLET4', 'SEXTUPLET5', 'SEXTUPLET6', 'QUINTUPLET1', 'QUINTUPLET2', 'QUINTUPLET3', 'QUINTUPLET4', 'QUINTUPLET5', 'QUADRUPLET1', 'QUADRUPLET2', 'QUADRUPLET3', 'QUADRUPLET4'] |
+| IFEMALELAST | 01 AUG 2000 |   N/A    |   HERNAME    |  SHEIS WOMAN   | MYWOMANNAME  |    IAM WOMAN    |                                                                                                             N/A                                                                                                             |
+|   FSONNMOM  | 14 FEB 1990 |   N/A    |    ISONNY    |  Hersh E. Son  |    IMAMI     |   Ginger Mami   |                                                                                                             N/A                                                                                                             |
+| FDIVDEADFAM | 14 FEB 2010 |   N/A    | IDIVDEADHUSB | HE DEADVORCED  | IDIVDEADWIFE |  SHE DEADVORCED |                                                                                                             N/A                                                                                                             |
+|   FPARENTS  | 14 FEB 1990 |   N/A    |    IDADDY    | Hersh E. Daddy |    IMAMI     |   Ginger Mami   |                                                                                                    ['ISONNY', 'IDAUGHTY']                                                                                                   |
+|   FDIVFAM   | 14 FEB 2010 |   N/A    |   IDIVHUSB   |  HE DIVORCED   |   IDIVWIFE   |   SHE DIVORCED  |                                                                                                             N/A                                                                                                             |
+| FDADNDAUGHT | 14 FEB 1990 |   N/A    |    IDADDY    | Hersh E. Daddy |   IDAUGHTY   | Ginger Daughter |                                                                                                             N/A                                                                                                             |
+|     F01     | 14 FEB 1990 |   N/A    |     I01      | Hersh E. /Bar/ |     I02      |  Ginger /Bred/  |                                                                                                 ['I03', 'I05', 'I06', 'I07']                                                                                                |
+|     F03     | 18 APR 2019 |   N/A    |     I08      | Timothy /Drop/ |     I07      |   Lemon /Bar/   |                                                                                                             N/A                                                                                                             |
+|     F02     |  9 MAR 2013 |   N/A    |     I04      | George /Kane/  |     I03      |   Candy /Bar/   |                                                                                                           ['I09']                                                                                                           |
+|     FSIB    | 14 FEB 1990 |   N/A    |     ISON     |  Hersh E. Son  |   IDAUGHT    | Ginger Daughter |                                                                                                             N/A                                                                                                             |
+|  IMALELAST  | 01 AUG 2000 |   N/A    |  MYMANNAME   |    IAM MAN     |   HISNAME    |     HEIS MAN    |                                                                                                             N/A                                                                                                             |
++-------------+-------------+----------+--------------+----------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Anomaly US10: Ginger Mami (IMOM) and Hersh E. Daddy (IDAD) married too young in family FPAR!
+Anomaly US10: SHE JUSDED (IDED) and HE JUSTBORN (IBABY) married too young in family FDEDNBABE!
+Anomaly US10: IAM WOMAN (MYWOMANNAME) and SHEIS WOMAN (HERNAME) married too young in family IFEMALELAST!
+Anomaly US10: Ginger Mami (IMAMI) and Hersh E. Son (ISONNY) married too young in family FSONNMOM!
+Anomaly US10: Ginger Mami (IMAMI) and Hersh E. Daddy (IDADDY) married too young in family FPARENTS!
+Anomaly US10: Ginger Daughter (IDAUGHTY) and Hersh E. Daddy (IDADDY) married too young in family FDADNDAUGHT!
+Anomaly US10: Ginger /Bred/ (I02) and Hersh E. /Bar/ (I01) married too young in family F01!
+Anomaly US10: Candy /Bar/ (I03) and George /Kane/ (I04) married too young in family F02!
+Anomaly US10: Ginger Daughter (IDAUGHT) and Hersh E. Son (ISON) married too young in family FSIB!
+Anomaly US10: HEIS MAN (HISNAME) and IAM MAN (MYMANNAME) married too young in family IMALELAST!
+Error US42: Individual I05 has an invalid birth date.
+Anomaly US21: Gender of individual IDIVDEADWIFE: SHE DEADVORCED does not match role.
+Anomaly US21: Gender of individual I02: Ginger /Bred/ does not match role.
+Error US 01: Individual I01 has birth date in the future
+US28: Family id FPAR
+US28: IDAUGHT: Ginger Daughter is 30 years old
+US28: ISON: Hersh E. Son is 30 years old
+US28: Family id FDEDNBABE
+US28: No children in this family
+US28: Family id MEGAFAM
+US28: QUADRUPLET4: QUADRUPLET is 19 years old
+US28: QUADRUPLET3: QUADRUPLET is 19 years old
+US28: QUADRUPLET2: QUADRUPLET is 19 years old
+US28: QUADRUPLET1: QUADRUPLET is 19 years old
+US28: QUINTUPLET5: QUINTUPLET is 19 years old
+US28: QUINTUPLET4: QUINTUPLET is 19 years old
+US28: QUINTUPLET3: QUINTUPLET is 19 years old
+US28: QUINTUPLET2: QUINTUPLET is 19 years old
+US28: QUINTUPLET1: QUINTUPLET is 19 years old
+US28: SEXTUPLET6: SEXTUPLET is 19 years old
+US28: SEXTUPLET5: SEXTUPLET is 19 years old
+US28: SEXTUPLET4: SEXTUPLET is 19 years old
+US28: SEXTUPLET3: SEXTUPLET is 19 years old
+US28: SEXTUPLET2: SEXTUPLET is 19 years old
+US28: SEXTUPLET1: SEXTUPLET1 is 19 years old
+US28: Family id IFEMALELAST
+US28: No children in this family
+US28: Family id FSONNMOM
+US28: No children in this family
+US28: Family id FDIVDEADFAM
+US28: No children in this family
+US28: Family id FPARENTS
+US28: IDAUGHTY: Ginger Daughter is 30 years old
+US28: ISONNY: Hersh E. Son is 30 years old
+US28: Family id FDIVFAM
+US28: No children in this family
+US28: Family id FDADNDAUGHT
+US28: No children in this family
+US28: Family id F01
+US28: I06: Mars /Bar/ is 25 years old
+US28: I07: Lemon /Bar/ is 24 years old
+US28: I03: Candy /Bar/ is 9 years old
+US28: I05: Reese /Bar/ is 0 years old
+US28: Family id F03
+US28: No children in this family
+US28: Family id F02
+US28: I09: Marshmallow /Kane/ is 3 years old
+US28: Family id FSIB
+US28: No children in this family
+US28: Family id IMALELAST
+US28: No children in this family
+Anomaly US 18: in Family FSIB husband ISON: Hersh E. Son and wife IDAUGHT: Ginger Daughter are children in the same family
+Anomaly US 17: in Family FSONNMOM husband ISONNY: Hersh E. Son is wife IMAMI: Ginger Mami's son
+Anomaly US 17: in Family FDADNDAUGHT husband IDADDY: Hersh E. Daddy is wife IDAUGHTY: Ginger Daughter's father
+US36: Individual IMAMI: Ginger Mami
+US36: Individual IDED: SHE JUSDED
+US36: Individual IDAUGHTY: Ginger Daughter
+US36: Individual IDAUGHT: Ginger Daughter
+US36: Individual IMOM: Ginger Mami
+US36: Individual I02: Ginger /Bred/
+US35: Individual IBABY: HE JUSTBORN
+US29: Ginger Mami is deceased.
+US29: HE DEADVORCED is deceased.
+US29: SHE JUSDED is deceased.
+US29: Ginger Daughter is deceased.
+US29: Ginger Daughter is deceased.
+US29: SHE DEADVORCED is deceased.
+US29: Ginger Mami is deceased.
+US29: Ginger /Bred/ is deceased.
+US29: Reese /Bar/ is deceased.
+US29: OLD FART is deceased.
+US30: TOO MANYis living and married.
+US30: DANG KIDSis living and married.
+US30: SHEIS WOMANis living and married.
+US30: IAM WOMANis living and married.
+US30: HE DIVORCEDis living and married.
+US30: SHE DIVORCEDis living and married.
+US30: Timothy /Drop/is living and married.
+US30: Lemon /Bar/is living and married.
+US30: George /Kane/is living and married.
+US30: Candy /Bar/is living and married.
+US30: IAM MANis living and married.
+US30: HEIS MANis living and married.
+Error US04: Divorce date is before marriage date in family FDIVFAM
+Error US05: Wife IDIVDEADWIFE: SHE DEADVORCED in family FDIVDEADFAM died before she got married
+Error US05: Husband IDIVDEADHUSB: HE DEADVORCED in family FDIVDEADFAM died before he got married
+Error US14: Family MEGAFAM has 6 children born on 2000-08-10.
+Error US16: Individual ISON's surname does not match Family FPAR's surname.
+Error US16: Individual ISONNY's surname does not match Family FPARENTS's surname.
+US15: No children in this family
+US15: There are too many kids in Family MEGAFAM
+US15: No children in this family
+US15: No children in this family
+US15: No children in this family
+US15: No children in this family
+US15: No children in this family
+US15: No children in this family
+US15: No children in this family
+US15: No children in this family
+Error US07: OLDER FART is too old.
+Error US07: OLD FART was too old when they passed away.

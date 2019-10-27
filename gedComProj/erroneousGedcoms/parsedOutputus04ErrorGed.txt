@@ -1,0 +1,82 @@
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Start of Divorce marriage
+<--0|NOTE|Y|Start of Divorce marriage
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. Divorced
+<--1|NAME|Y|Hersh E. Divorced
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1990
+<--2|DATE|Y|4 OCT 1990
+-->1 FAMS F03
+<--1|FAMS|Y|F03
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger Divorced
+<--1|NAME|Y|Ginger Divorced
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1990
+<--2|DATE|Y|10 AUG 1990
+-->1 FAMS F03
+<--1|FAMS|Y|F03
+-->0 F03 FAM
+<--0|FAM|Y|F03
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 2010
+<--2|DATE|Y|14 FEB 2010
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 DIV
+<--1|DIV|Y|
+-->2 DATE 13 FEB 2010
+<--2|DATE|Y|13 FEB 2010
+-->0 NOTE Start of Married marriage
+<--0|NOTE|Y|Start of Married marriage
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Hersh E. Married
+<--1|NAME|Y|Hersh E. Married
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1990
+<--2|DATE|Y|4 OCT 1990
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME Ginger Married
+<--1|NAME|Y|Ginger Married
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1990
+<--2|DATE|Y|10 AUG 1990
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 2010
+<--2|DATE|Y|14 FEB 2010
+-->1 HUSB I03
+<--1|HUSB|Y|I03
+-->1 WIFE I04
+<--1|WIFE|Y|I04
+-->0 TRLR
+<--0|TRLR|Y|

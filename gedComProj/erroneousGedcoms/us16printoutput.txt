@@ -1,0 +1,33 @@
+Individuals:
++-----+----------------+--------+-------------+-------+-------+-------+--------+-----+
+|  ID |      Name      | Gender |    Birth    | Death | Alive | Child | Spouse | Age |
++-----+----------------+--------+-------------+-------+-------+-------+--------+-----+
+| I02 | Ginger /Bred/  |   F    | 10 AUG 1970 |  N/A  |   Y   |  N/A  |  F01   |  49 |
+| I03 |  Candy /Kane/  |   F    | 20 MAY 1994 |  N/A  |   Y   |  F01  |  N/A   |  25 |
+| I01 | Hersh E. /Bar/ |   M    |  4 OCT 1969 |  N/A  |   Y   |  N/A  |  F01   |  50 |
+| I06 |   Mars /Bar/   |   F    | 20 JUN 1992 |  N/A  |   Y   |  F01  |  N/A   |  27 |
+| I07 |  Twix /Stick/  |   M    | 11 MAY 1994 |  N/A  |   Y   |  F01  |  N/A   |  25 |
+| I04 | Reese /Piece/  |   M    |  3 MAY 1992 |  N/A  |   Y   |  F01  |  N/A   |  27 |
+| I05 |  Lemon /Drop/  |   F    |  2 JAN 1994 |  N/A  |   Y   |  F01  |  N/A   |  25 |
+| I08 |  Kitkat /Bar/  |   F    | 20 MAY 1998 |  N/A  |   Y   |  F01  |  N/A   |  21 |
++-----+----------------+--------+-------------+-------+-------+-------+--------+-----+
+Families:
++-----+-------------+----------+------------+----------------+---------+---------------+--------------------------------------------+
+|  ID |   Married   | Divorced | Husband ID |  Husband Name  | Wife ID |   Wife Name   |                  Children                  |
++-----+-------------+----------+------------+----------------+---------+---------------+--------------------------------------------+
+| F01 | 14 FEB 1990 |   N/A    |    I01     | Hersh E. /Bar/ |   I02   | Ginger /Bred/ | ['I03', 'I04', 'I05', 'I06', 'I07', 'I08'] |
++-----+-------------+----------+------------+----------------+---------+---------------+--------------------------------------------+
+US28: Family id F01
+US28: I06: Mars /Bar/ is 27 years old
+US28: I04: Reese /Piece/ is 27 years old
+US28: I07: Twix /Stick/ is 25 years old
+US28: I05: Lemon /Drop/ is 25 years old
+US28: I03: Candy /Kane/ is 25 years old
+US28: I08: Kitkat /Bar/ is 21 years old
+US36: No recent deaths.
+US35: No recent births.
+US29: There are no deceased individuals.
+US30: Hersh E. /Bar/is living and married.
+US30: Ginger /Bred/is living and married.
+Error US16: Individual I04's surname does not match Family F01's surname.
+Error US16: Individual I07's surname does not match Family F01's surname.

@@ -1,0 +1,51 @@
+Individuals:
++-------------+------------+--------+-------------+-------+-------+---------+---------+-----+
+|      ID     |    Name    | Gender |    Birth    | Death | Alive |  Child  |  Spouse | Age |
++-------------+------------+--------+-------------+-------+-------+---------+---------+-----+
+|   IKIDSMOM  | DANG KIDS  |   F    | 10 AUG 1990 |  N/A  |   Y   |   N/A   | MEGAFAM |  29 |
+| QUADRUPLET4 | QUADRUPLET |   F    | 12 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUINTUPLET4 | QUINTUPLET |   F    | 11 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUINTUPLET5 | QUINTUPLET |   F    | 11 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUADRUPLET3 | QUADRUPLET |   F    | 12 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUINTUPLET1 | QUINTUPLET |   F    | 11 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUINTUPLET2 | QUINTUPLET |   F    | 11 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+|  SEXTUPLET5 | SEXTUPLET  |   F    | 10 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUADRUPLET2 | QUADRUPLET |   F    | 12 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUINTUPLET3 | QUINTUPLET |   F    | 11 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+| QUADRUPLET1 | QUADRUPLET |   F    | 12 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+|  SEXTUPLET1 | SEXTUPLET1 |   F    | 10 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+|  SEXTUPLET2 | SEXTUPLET  |   F    | 10 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+|  SEXTUPLET3 | SEXTUPLET  |   F    | 10 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+|  SEXTUPLET4 | SEXTUPLET  |   F    | 10 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
+|   IKIDSDAD  |  TOO MANY  |   M    | 10 AUG 1990 |  N/A  |   Y   |   N/A   | MEGAFAM |  29 |
+|  SEXTUPLET6 | SEXTUPLET  |   F    | 10 AUG 2000 |  N/A  |   Y   | MEGAFAM |   N/A   |  19 |
++-------------+------------+--------+-------------+-------+-------+---------+---------+-----+
+Families:
++---------+-------------+----------+------------+--------------+----------+-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|    ID   |   Married   | Divorced | Husband ID | Husband Name | Wife ID  | Wife Name |                                                                                                           Children                                                                                                          |
++---------+-------------+----------+------------+--------------+----------+-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MEGAFAM | 14 FEB 2010 |   N/A    |  IKIDSDAD  |   TOO MANY   | IKIDSMOM | DANG KIDS | ['SEXTUPLET1', 'SEXTUPLET2', 'SEXTUPLET3', 'SEXTUPLET4', 'SEXTUPLET5', 'SEXTUPLET6', 'QUINTUPLET1', 'QUINTUPLET2', 'QUINTUPLET3', 'QUINTUPLET4', 'QUINTUPLET5', 'QUADRUPLET1', 'QUADRUPLET2', 'QUADRUPLET3', 'QUADRUPLET4'] |
++---------+-------------+----------+------------+--------------+----------+-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+US28: Family id MEGAFAM
+US28: QUADRUPLET4: QUADRUPLET is 19 years old
+US28: QUADRUPLET3: QUADRUPLET is 19 years old
+US28: QUADRUPLET2: QUADRUPLET is 19 years old
+US28: QUADRUPLET1: QUADRUPLET is 19 years old
+US28: QUINTUPLET5: QUINTUPLET is 19 years old
+US28: QUINTUPLET4: QUINTUPLET is 19 years old
+US28: QUINTUPLET3: QUINTUPLET is 19 years old
+US28: QUINTUPLET2: QUINTUPLET is 19 years old
+US28: QUINTUPLET1: QUINTUPLET is 19 years old
+US28: SEXTUPLET6: SEXTUPLET is 19 years old
+US28: SEXTUPLET5: SEXTUPLET is 19 years old
+US28: SEXTUPLET4: SEXTUPLET is 19 years old
+US28: SEXTUPLET3: SEXTUPLET is 19 years old
+US28: SEXTUPLET2: SEXTUPLET is 19 years old
+US28: SEXTUPLET1: SEXTUPLET1 is 19 years old
+US36: No recent deaths.
+US35: No recent births.
+US29: There are no deceased individuals.
+US30: TOO MANYis living and married.
+US30: DANG KIDSis living and married.
+Error US14: Family MEGAFAM has 6 children born on 2000-08-10.
+US15: There are too many kids in Family MEGAFAM

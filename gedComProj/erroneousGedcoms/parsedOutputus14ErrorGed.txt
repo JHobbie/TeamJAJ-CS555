@@ -1,0 +1,126 @@
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1969
+<--2|DATE|Y|4 OCT 1969
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1970
+<--2|DATE|Y|10 AUG 1970
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE 6 children born on same day
+<--0|NOTE|Y|6 children born on same day
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Lemon /Drop/
+<--1|NAME|Y|Lemon /Drop/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I06 INDI
+<--0|INDI|Y|I06
+-->1 NAME Mars /Bar/
+<--1|NAME|Y|Mars /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I07 INDI
+<--0|INDI|Y|I07
+-->1 NAME Twix /Bar/
+<--1|NAME|Y|Twix /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I08 INDI
+<--0|INDI|Y|I08
+-->1 NAME Kitkat /Bar/
+<--1|NAME|Y|Kitkat /Bar/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1994
+<--2|DATE|Y|20 MAY 1994
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1990
+<--2|DATE|Y|14 FEB 1990
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I04
+<--1|CHIL|Y|I04
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->1 CHIL I06
+<--1|CHIL|Y|I06
+-->1 CHIL I07
+<--1|CHIL|Y|I07
+-->1 CHIL I08
+<--1|CHIL|Y|I08
+-->0 TRLR
+<--0|TRLR|Y|
