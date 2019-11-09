@@ -21,9 +21,10 @@ def calculateAge(individual, inputDateObj):
         ageAtInputDate = inputDateObj.year - birthDateObj.year -  (1 if (inputDateObj.month< birthDateObj.month) else (1 if ((inputDateObj.month == birthDateObj.month) and (inputDateObj.day < birthDateObj.day)) else 0))
         return ageAtInputDate
 
+#US03
+
 def birthBeforeDeath(individualDict):
     retlist = []
-    currDate = datetime.datetime.now()
     for key in individualDict.keys():
         currInd = individualDict[key]
         birth = calcDate(currInd['BIRT'][0])

@@ -1,0 +1,35 @@
+0 NOTE TeamJAJ-CS555
+0 HEAD
+0 NOTE Start of Individuals with death date before birth date
+
+0 I01 INDI
+1 NAME Hersh E. /Bar/
+1 SEX M
+1 BIRT
+2 DATE 4 OCT 2010
+1 DEAT
+2 DATE 23 DEC 2008
+
+0 I02 INDI
+1 NAME Ginger /Bred/
+1 SEX F
+1 BIRT
+2 DATE 8 JAN 1992
+1 DEAT
+2 DATE 17 AUG 1974
+
+0 NOTE Start of Individuals with birth date before death date or with no death date
+
+0 I03 INDI
+1 NAME Candy /Kane/
+1 SEX F
+1 BIRT
+2 DATE 6 OCT 1987
+
+O I04 INDI
+1 NAME Choc /Late/
+1 SEX M
+1 BIRT
+2 DATE 18 JUL 1986
+1 DEAT
+2 DATE 3 FEB 2011
