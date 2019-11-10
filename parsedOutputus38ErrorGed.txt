@@ -1,0 +1,804 @@
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 23 NOC 1940
+<--2|DATE|Y|23 NOC 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME George /Kane/
+<--1|NAME|Y|George /Kane/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 15 NOV 1964
+<--2|DATE|Y|15 NOV 1964
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 1 DEC 1966
+<--2|DATE|Y|1 DEC 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 F02 FAM
+<--0|FAM|Y|F02
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 18 MAR 1984
+<--2|DATE|Y|18 MAR 1984
+-->1 HUSB I04
+<--1|HUSB|Y|I04
+-->1 WIFE 103
+<--1|WIFE|Y|103
+-->1 CHIL 106
+<--1|CHIL|Y|106
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 23 NOC 1940
+<--2|DATE|Y|23 NOC 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME George /Kane/
+<--1|NAME|Y|George /Kane/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 15 NOV 1964
+<--2|DATE|Y|15 NOV 1964
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 1 DEC 1966
+<--2|DATE|Y|1 DEC 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 F02 FAM
+<--0|FAM|Y|F02
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 18 MAR 1984
+<--2|DATE|Y|18 MAR 1984
+-->1 HUSB I04
+<--1|HUSB|Y|I04
+-->1 WIFE 103
+<--1|WIFE|Y|103
+-->1 CHIL 106
+<--1|CHIL|Y|106
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Spouse of deceased
+<--0|NOTE|Y|Spouse of deceased
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1940
+<--2|DATE|Y|4 OCT 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Deceased
+<--0|NOTE|Y|Deceased
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 11 JUN 1966
+<--2|DATE|Y|11 JUN 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Spouse of deceased
+<--0|NOTE|Y|Spouse of deceased
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1940
+<--2|DATE|Y|4 OCT 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Deceased
+<--0|NOTE|Y|Deceased
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 11 JUN 1966
+<--2|DATE|Y|11 JUN 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Spouse of deceased
+<--0|NOTE|Y|Spouse of deceased
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1940
+<--2|DATE|Y|4 OCT 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Deceased
+<--0|NOTE|Y|Deceased
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 11 JUN 1966
+<--2|DATE|Y|11 JUN 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Spouse of deceased
+<--0|NOTE|Y|Spouse of deceased
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1940
+<--2|DATE|Y|4 OCT 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Deceased
+<--0|NOTE|Y|Deceased
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 11 JUN 1966
+<--2|DATE|Y|11 JUN 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Spouse of deceased
+<--0|NOTE|Y|Spouse of deceased
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 4 OCT 1940
+<--2|DATE|Y|4 OCT 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Deceased
+<--0|NOTE|Y|Deceased
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 11 JUN 1966
+<--2|DATE|Y|11 JUN 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Spouse of deceased
+<--0|NOTE|Y|Spouse of deceased
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 1 DEC 1940
+<--2|DATE|Y|1 DEC 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Deceased
+<--0|NOTE|Y|Deceased
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME George /Kane/
+<--1|NAME|Y|George /Kane/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 15 NOV 1964
+<--2|DATE|Y|15 NOV 1964
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 22 NOV 1966
+<--2|DATE|Y|22 NOV 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 F02 FAM
+<--0|FAM|Y|F02
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 18 MAR 1984
+<--2|DATE|Y|18 MAR 1984
+-->1 HUSB I04
+<--1|HUSB|Y|I04
+-->1 WIFE I03
+<--1|WIFE|Y|I03
+-->0 TRLR
+<--0|TRLR|Y|
+-->0 NOTE TeamJAJ-CS555
+<--0|NOTE|Y|TeamJAJ-CS555
+-->0 HEAD
+<--0|HEAD|Y|
+-->0 NOTE Spouse of deceased
+<--0|NOTE|Y|Spouse of deceased
+-->0 I01 INDI
+<--0|INDI|Y|I01
+-->1 NAME Hersh E. /Bar/
+<--1|NAME|Y|Hersh E. /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 1 DEC 1940
+<--2|DATE|Y|1 DEC 1940
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Deceased
+<--0|NOTE|Y|Deceased
+-->0 I02 INDI
+<--0|INDI|Y|I02
+-->1 NAME Ginger /Bred/
+<--1|NAME|Y|Ginger /Bred/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 10 AUG 1944
+<--2|DATE|Y|10 AUG 1944
+-->1 DEAT
+<--1|DEAT|Y|
+-->2 DATE 6 NOV 2019
+<--2|DATE|Y|6 NOV 2019
+-->1 FAMS F01
+<--1|FAMS|Y|F01
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I03 INDI
+<--0|INDI|Y|I03
+-->1 NAME Candy /Kane/
+<--1|NAME|Y|Candy /Kane/
+-->1 SEX F
+<--1|SEX|Y|F
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 20 MAY 1965
+<--2|DATE|Y|20 MAY 1965
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 I04 INDI
+<--0|INDI|Y|I04
+-->1 NAME George /Kane/
+<--1|NAME|Y|George /Kane/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 15 NOV 1964
+<--2|DATE|Y|15 NOV 1964
+-->1 FAMS F02
+<--1|FAMS|Y|F02
+-->0 NOTE Descendant
+<--0|NOTE|Y|Descendant
+-->0 I05 INDI
+<--0|INDI|Y|I05
+-->1 NAME Reese /Bar/
+<--1|NAME|Y|Reese /Bar/
+-->1 SEX M
+<--1|SEX|Y|M
+-->1 BIRT
+<--1|BIRT|Y|
+-->2 DATE 22 NOV 1966
+<--2|DATE|Y|22 NOV 1966
+-->1 FAMC F01
+<--1|FAMC|Y|F01
+-->0 F01 FAM
+<--0|FAM|Y|F01
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 14 FEB 1964
+<--2|DATE|Y|14 FEB 1964
+-->1 HUSB I01
+<--1|HUSB|Y|I01
+-->1 WIFE I02
+<--1|WIFE|Y|I02
+-->1 CHIL I03
+<--1|CHIL|Y|I03
+-->1 CHIL I05
+<--1|CHIL|Y|I05
+-->0 F02 FAM
+<--0|FAM|Y|F02
+-->1 MARR
+<--1|MARR|Y|
+-->2 DATE 18 MAR 1984
+<--2|DATE|Y|18 MAR 1984
+-->1 HUSB I04
+<--1|HUSB|Y|I04
+-->1 WIFE I03
+<--1|WIFE|Y|I03
+-->0 TRLR
+<--0|TRLR|Y|

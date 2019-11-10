@@ -25,17 +25,17 @@ def calculateAge(individual, inputDateObj):
 
 def birthBeforeMarriage(familyDict, individualDict):
     retList = []
-    currDate - datetime.datetime.now()
+    currDate = datetime.datetime.now()
     for key in familyDict.keys():
         currFam = familyDict[key]
-        husb = individualDict[familyDict['HUSB'][0]]
-        wife = individualDict[familyDict['WIFE'][0]]
+        husb = individualDict[currFam['HUSB'][0]]
+        wife = individualDict[currFam['WIFE'][0]]
         husbBirt = calcDate(husb['BIRT'][0])
         wifeBirt = calcDate(wife['BIRT'][0])
         marrDate = calcDate(currFam['MARR'][0])
         if marrDate < husbBirt:
-            retList += [("Error US02: " + husb['NAME'][0] + "'s birth date if after their marriage date.")]
+            retList += [("Error US02: " + husb['NAME'][0] + "'s birth date is after their marriage date.")]
         if marrDate < wifeBirt:
-            retList += [("Error US02: " + wife['NAME'][0] + "'s birth date if after their marriage date.")]
+            retList += [("Error US02: " + wife['NAME'][0] + "'s birth date is after their marriage date.")]
     return retList
         

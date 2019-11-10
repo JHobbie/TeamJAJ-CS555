@@ -31,6 +31,6 @@ def birthBeforeDeath(individualDict):
         if 'DEAT' in currInd.keys():
             death = calcDate(currInd['DEAT'][0])
             if death < birth:
-                retList += [("Error US03: " + currInd['NAME'][0] + "'s birth date is after their death date.")]
+                retlist += [("Error US03: " + currInd['NAME'][0] + "'s birth date is after their death date.")]
     return retlist
-    
+

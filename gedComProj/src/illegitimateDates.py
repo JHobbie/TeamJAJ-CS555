@@ -41,4 +41,3 @@ def badDate(familyDict, individualDict):
                 err_msg += ["Error US42: Individual " + currIndi['ID'] + " has an invalid death date."]
     return err_msg
 
-

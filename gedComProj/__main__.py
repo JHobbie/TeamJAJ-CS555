@@ -14,6 +14,8 @@ import gedComProj.src.us04Story as us04Story, gedComProj.src.us05Story as us05St
 import gedComProj.src.us14Story as us14Story, gedComProj.src.us16Story as us16Story
 import gedComProj.src.fewerSiblings as fewerSiblings, gedComProj.src.lessThan150 as lessThan150
 import gedComProj.src.us13Story as us13Story, gedComProj.src.us34Story as us34Story
+import gedComProj.src.us02Story as us02Story, gedComProj.src.us03Story as us03Story
+import gedComProj.src.us37Story as us37Story, gedComProj.src.us38Story as us38Story
 
 
 from prettytable import PrettyTable
@@ -171,6 +173,15 @@ if __name__ == "__main__":
     lessThan150Errors = lessThan150.lessThan150(individualDict)
     us13Errors = us13Story.checkSiblingAgeDifference(familyDict,individualDict)
     us34Errors = us34Story.detectAgeDiff(familyDict,individualDict)
+    us02Errors = us02Story.birthBeforeMarriage(familyDict, individualDict)
+    us03Errors = us03Story.birthBeforeDeath(individualDict)
+    us37List = us37Story.listSurvivors(familyDict, individualDict)
+    us38List = us38Story.upcomingBirthdays(individualDict)
+    write37List = []
+    for tup in us37List:
+        write37List += [str(us37List)]
+
+        
 
 
     utils.writeErrors(us10Anomalies, writefi)
@@ -195,6 +206,12 @@ if __name__ == "__main__":
     utils.writeErrors(lessThan150Errors, writefi)
     utils.writeErrors(us13Errors, writefi)
     utils.writeErrors(us34Errors, writefi)
+
+    utils.writeErrors(us02Errors, writefi)
+    utils.writeErrors(us03Errors, writefi)
+    utils.writeErrors(write37List, writefi)
+    utils.writeErrors(us38List, writefi)
+
 
     print(familyDict)
     writefi.close()

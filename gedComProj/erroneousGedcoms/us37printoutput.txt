@@ -1,0 +1,44 @@
+Individuals:
++-----+---------------------+--------+-------------+------------+-------+-------+--------+-----+
+|  ID |         Name        | Gender |    Birth    |   Death    | Alive | Child | Spouse | Age |
++-----+---------------------+--------+-------------+------------+-------+-------+--------+-----+
+| I10 |    Caramel /Bar/    |   M    | 10 JUL 1989 |    N/A     |   Y   |  F04  |  N/A   |  30 |
+| I02 |    Ginger /Bred/    |   F    | 10 AUG 1944 | 6 NOV 2019 |   N   |  N/A  |  F01   |  75 |
+| I03 |     Candy /Kane/    |   F    | 20 MAY 1965 |    N/A     |   Y   |  F01  |  F02   |  54 |
+| I01 |    Hersh E. /Bar/   |   M    |  4 OCT 1940 |    N/A     |   Y   |  N/A  |  F01   |  79 |
+| I06 | Marshmallow /Sugar/ |   F    | 20 MAY 1986 |    N/A     |   Y   |  F02  |  N/A   |  33 |
+| I07 |    Brown /Sugar/    |   M    |  2 APR 1986 |    N/A     |   Y   |  N/A  |  F03   |  33 |
+| I04 |    George /Kane/    |   M    | 20 AUG 1964 |    N/A     |   Y   |  N/A  |  F02   |  55 |
+| I05 |     Reese /Bar/     |   M    | 11 JUN 1966 |    N/A     |   Y   |  F01  |  F04   |  53 |
+| I08 |    Agave /Sugar/    |   F    | 16 OCT 2007 |    N/A     |   Y   |  F03  |  N/A   |  12 |
+| I09 |    Vanilla /Bar/    |   F    | 21 FEB 1965 |    N/A     |   Y   |  N/A  |  F04   |  54 |
++-----+---------------------+--------+-------------+------------+-------+-------+--------+-----+
+Families:
++-----+-------------+----------+------------+----------------+---------+---------------------+----------------+
+|  ID |   Married   | Divorced | Husband ID |  Husband Name  | Wife ID |      Wife Name      |    Children    |
++-----+-------------+----------+------------+----------------+---------+---------------------+----------------+
+| F04 | 21 DEC 1986 |   N/A    |    I05     |  Reese /Bar/   |   I09   |    Vanilla /Bar/    |    ['I10']     |
+| F01 | 14 FEB 1964 |   N/A    |    I01     | Hersh E. /Bar/ |   I02   |    Ginger /Bred/    | ['I03', 'I05'] |
+| F03 | 27 JAN 2006 |   N/A    |    I07     | Brown /Sugar/  |   I06   | Marshmallow /Sugar/ |    ['I08']     |
+| F02 | 18 MAR 1984 |   N/A    |    I04     | George /Kane/  |   I03   |     Candy /Kane/    |    ['I06']     |
++-----+-------------+----------+------------+----------------+---------+---------------------+----------------+
+US28: Family id F04
+US28: I10: Caramel /Bar/ is 30 years old
+US28: Family id F01
+US28: I03: Candy /Kane/ is 54 years old
+US28: I05: Reese /Bar/ is 53 years old
+US28: Family id F03
+US28: I08: Agave /Sugar/ is 12 years old
+US28: Family id F02
+US28: I06: Marshmallow /Sugar/ is 33 years old
+US36: Individual I02: Ginger /Bred/
+US35: No recent births.
+US29: Ginger /Bred/ is deceased.
+US30: Reese /Bar/is living and married.
+US30: Vanilla /Bar/is living and married.
+US30: Brown /Sugar/is living and married.
+US30: Marshmallow /Sugar/is living and married.
+US30: George /Kane/is living and married.
+US30: Candy /Kane/is living and married.
+[('US37: Individual I02 is survived by individuals: ', ['I01', 'I03', 'I05', 'I06', 'I10'])]
+US38: No upcoming birthdays

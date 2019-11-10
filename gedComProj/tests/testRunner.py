@@ -10,7 +10,8 @@ import gedComProj.tests.us05Tests as us05Tests, gedComProj.tests.us04Tests as us
 import gedComProj.tests.us14Tests as us14Tests, gedComProj.tests.us16Tests as us16Tests
 import gedComProj.tests.fewerSiblingsTests as fewerSiblingsTests, gedComProj.tests.lessThan150Tests as lessThan150Tests
 import gedComProj.tests.us13Tests as us13Tests, gedComProj.tests.us34Tests as us34Tests
-
+import gedComProj.tests.us02Tests as us02Tests, gedComProj.tests.us03Tests as us03Tests
+import gedComProj.tests.us37Tests as us37Tests, gedComProj.tests.us38Tests as us38Tests
 
 if __name__ == '__main__':
     #mainTestSuite = mainTests.suite()
@@ -35,5 +36,9 @@ if __name__ == '__main__':
     lessThan150TestSuite = lessThan150Tests.suite()
     us13TestsSuite = us13Tests.suite()
     us34TestsSuite = us34Tests.suite()
-    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite, siblingMarriageTestSuite, noParentMarriageTestSuite, recentBirthsTestSuite, recentDeathsTestSuite, listDeceasedTestSuite, livingMarriedTestSuite, us05TestsSuite, us04TestsSuite, us14TestsSuite, us16TestsSuite, fewerSiblingsTestSuite, lessThan150TestSuite,us13TestsSuite, us34TestsSuite])
+    us02TestsSuite = us02Tests.suite()
+    us03TestsSuite = us03Tests.suite()
+    us37TestsSuite = us37Tests.suite()
+    us38TestsSuite = us38Tests.suite()
+    alltests = unittest.TestSuite([utilsTestSuite, marriageAgeTestSuite, includeAgeTestSuite, correctGenderTestSuite, illegitimateAgeTestSuite, dateCheckTestSuite, siblingAgeTestSuite, siblingMarriageTestSuite, noParentMarriageTestSuite, recentBirthsTestSuite, recentDeathsTestSuite, listDeceasedTestSuite, livingMarriedTestSuite, us05TestsSuite, us04TestsSuite, us14TestsSuite, us16TestsSuite, fewerSiblingsTestSuite, lessThan150TestSuite,us13TestsSuite, us34TestsSuite, us02TestsSuite, us03TestsSuite, us37TestsSuite, us38TestsSuite])
     unittest.TextTestRunner(verbosity=2).run(alltests)
